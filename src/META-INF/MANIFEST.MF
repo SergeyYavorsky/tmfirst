@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: snsk3.jar snsreuse.jar telnetd.jar commons-logging.jar log
+ 4j-1.2.15.jar ojdbc14.jar orai18n.jar
+Main-Class: com.shatura.bc.tmfirst.Test
+

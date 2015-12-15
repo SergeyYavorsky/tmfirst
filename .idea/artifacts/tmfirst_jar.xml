@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="tmfirst:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tmfirst_jar</output-path>
+    <root id="root">
+      <element id="archive" name="tmfirst.jar">
+        <element id="module-output" name="tmfirst" />
+        <element id="dir-copy" path="$PROJECT_DIR$/configs" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/libs/snsk3.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/snsreuse.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/telnetd.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/imp/commons-logging.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/imp/log4j-1.2.15.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/imp/ojdbc14.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/imp/orai18n.jar" />
+    </root>
+  </artifact>
+</component>

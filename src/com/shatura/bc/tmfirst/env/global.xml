@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding="windows-1251"?>
+<PROPERTIES>
+
+  <OBJECT name="ru.sns.db.defined.DBMSConnector">
+    <GROUP name="ru.sns.db.defined.DBMSConnector$Settings">
+      <SETTING name="DBMS_ALIASES">
+        <DESCRIPTION><![CDATA[
+          Перечень aliases баз данных, с которыми может работать приложение. Каждый alias не должен содержать пробелов. Alias-ы разделяются пробелами.
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          wrk
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="DBMS_DRIVERS">
+        <DESCRIPTION><![CDATA[
+          Полные имена java-классов, реализующих JDBC-инерфейс для соединений с DBMS от,  возможно, различных производителей. Имена разделятся пробелами.
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          oracle.jdbc.driver.OracleDriver
+        ]]></VALUE>
+      </SETTING>
+    </GROUP>
+  </OBJECT>
+
+  <OBJECT name="ru.sns.db.defined.PredefinedConnFactory_4_wrk">
+    <GROUP name="ru.sns.db.defined.PredefinedConnFactory$Settings">
+      <SETTING name="CONNECT_STRING">
+        <DESCRIPTION><![CDATA[
+          'Connect string' соединения с СУБД. jdbc:oracle:thin:@192.168.15.50:1521:mct jdbc:oracle:thin:@cpq.shatura.com:1521:ora
+	  jdbc:oracle:thin:@rostest.shatura.com:1521:ora
+          jdbc:oracle:thin:@magsrv3.mag3.shatura.com:1521:ora
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          jdbc:oracle:thin:@192.168.25.3:1521:ora
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="USER_NAME">
+        <DESCRIPTION><![CDATA[
+          Имя пользователя, под которым приложение будет соединяться с базой данных.
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          srv_tm
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="USER_PASSWORD">
+        <DESCRIPTION><![CDATA[
+          Пароль пользователя, под которым приложение будет соединяться с базой данных.
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          srv_tm
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="INIT_SCRIPT_FILE">
+        <DESCRIPTION><![CDATA[
+          Позволяет произвести набор инициализационных действий для любого соединения с базой данных. Значением параметра является имя файла, где определены такие действия. Признаком конца одной операции является символ '/', расположенный один на персональной строке.
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          classpath:<defaultApplEnvPath>/db/cis.properties
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="DONE_SCRIPT_FILE">
+        <DESCRIPTION><![CDATA[
+          Позволяет произвести набор неких действий перед закрытием любого соединения с базой данных. Значением параметра является имя файла, где определены такие действия. Признаком конца одной операции является символ '/', расположенный один на персональной строке. Внимание! Выполняется только в случае корректного закрытия соединения.
+        ]]></DESCRIPTION>
+      </SETTING>
+      <SETTING name="ARRAY_FACTORY_IMPLEMENTOR_CLASS">
+        <DESCRIPTION><![CDATA[
+          Название java-класса, реализующего интерфейс ru.sns.db.SQLArrayFactory
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          ru.sns.db.oracle.SQLArrayFactory
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="STRUCT_FACTORY_IMPLEMENTOR_CLASS">
+        <DESCRIPTION><![CDATA[
+          Название java-класса, реализующего интерфейс ru.sns.db.SQLStructFactory
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          ru.sns.db.oracle.SQLStructFactory
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="LOB_FACTORY_IMPLEMENTOR_CLASS">
+        <DESCRIPTION><![CDATA[
+          Название java-класса, реализующего интерфейс ru.sns.db.SQLLOBFactory
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          ru.sns.db.oracle.SQLLOBFactory
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="LOGGINNER_IMPLEMENTOR_CLASS">
+        <DESCRIPTION><![CDATA[
+          Название java-класса, реализующего logginer  ru.sns.gui.swing.db.SwingJDBCLogginner
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+	  ru.sns.db.JDBCLogginner$None
+        ]]></VALUE>
+      </SETTING>
+    </GROUP>
+  </OBJECT>
+
+  <OBJECT name="ru.sns.db.defined.PredefinedConnection">
+  </OBJECT>
+
+  <OBJECT name="ru.sns.dbg.NetMessagesSender">
+    <GROUP name="ru.sns.dbg.NetMessagesSender$Settings">
+      <SETTING name="ACTIVE">
+        <DESCRIPTION><![CDATA[
+          Определяет, будут ли высылаться сообщения
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          NO
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="APPL_ABBR">
+        <DESCRIPTION><![CDATA[
+          Аббревиатура приложения, записываемая в сообщения
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          UNDF
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="GROUP_ID">
+        <DESCRIPTION><![CDATA[
+          Адрес, по которому будут посылаться сообщения
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          228.99.34.7
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="PORT">
+        <DESCRIPTION><![CDATA[
+          Порт, по которому будут посылаться сообщения
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          7564
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="IGNORE_IO_ERRS">
+        <DESCRIPTION><![CDATA[
+          Определяет, будут ли подавляться ошибки сетевого обмена
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          YES
+        ]]></VALUE>
+      </SETTING>
+      <SETTING name="SP_LOGGING">
+        <DESCRIPTION><![CDATA[
+          Определяет, будут посылаться сообщения от всех SLP-процессов
+        ]]></DESCRIPTION>
+        <VALUE><![CDATA[
+          YES
+        ]]></VALUE>
+      </SETTING>
+    </GROUP>
+  </OBJECT>
+
+</PROPERTIES>

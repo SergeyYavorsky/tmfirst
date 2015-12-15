@@ -1,0 +1,300 @@
+DEBUG [01.09.2015 10:50:47]: createShellManager()
+DEBUG [01.09.2015 10:50:47]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [01.09.2015 10:50:47]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [01.09.2015 10:50:47]: Creating terminal manager.....
+DEBUG [01.09.2015 10:50:47]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [01.09.2015 10:50:47]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [01.09.2015 10:50:47]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [01.09.2015 10:50:47]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [01.09.2015 10:50:47]: Terminals:
+DEBUG [01.09.2015 10:50:47]: screen=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 10:50:47]: vt100=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 10:50:47]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 10:50:47]: vt102=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 10:50:47]: ansi=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 10:50:47]: linux=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 10:50:47]: windoof=net.wimpi.telnetd.io.terminal.Windoof@1760aec
+DEBUG [01.09.2015 10:50:47]: xterm=net.wimpi.telnetd.io.terminal.xterm@c73be3
+DEBUG [01.09.2015 10:50:47]: default=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 10:50:47]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 10:50:47]: vt320=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 10:50:47]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 10:50:47]: vt220=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 10:50:47]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 10:50:47]: start()
+DEBUG [01.09.2015 10:50:47]: start()
+INFO  [01.09.2015 10:50:47]: Listening to Port 6,666 with a connectivity queue size of 5.
+INFO  [01.09.2015 10:50:47]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@2edebe, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@121964c for database named wrk, named=SingleConn, seq=1) completed
+INFO  [01.09.2015 10:50:47]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [01.09.2015 10:50:47]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [01.09.2015 21:04:31]: createShellManager()
+DEBUG [01.09.2015 21:04:31]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [01.09.2015 21:04:31]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [01.09.2015 21:04:31]: Creating terminal manager.....
+DEBUG [01.09.2015 21:04:31]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [01.09.2015 21:04:31]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [01.09.2015 21:04:31]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [01.09.2015 21:04:31]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [01.09.2015 21:04:31]: Terminals:
+DEBUG [01.09.2015 21:04:31]: screen=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:04:31]: vt100=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:04:31]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:04:31]: vt102=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:04:31]: ansi=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:04:31]: linux=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:04:31]: windoof=net.wimpi.telnetd.io.terminal.Windoof@1760aec
+DEBUG [01.09.2015 21:04:31]: xterm=net.wimpi.telnetd.io.terminal.xterm@c73be3
+DEBUG [01.09.2015 21:04:31]: default=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:04:31]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:04:31]: vt320=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:04:31]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:04:31]: vt220=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:04:31]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:04:31]: start()
+DEBUG [01.09.2015 21:04:31]: start()
+INFO  [01.09.2015 21:04:31]: Listening to Port 6,666 with a connectivity queue size of 5.
+INFO  [01.09.2015 21:04:31]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@2edebe, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@121964c for database named wrk, named=SingleConn, seq=1) completed
+INFO  [01.09.2015 21:04:31]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [01.09.2015 21:04:31]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [01.09.2015 21:04:59]: makeConnection()::Socket[addr=/127.0.0.1,port=56996,localport=6666]
+DEBUG [01.09.2015 21:05:00]: Character mode initialized.
+DEBUG [01.09.2015 21:05:00]: Reported terminal name XTERM
+DEBUG [01.09.2015 21:05:00]: handleNEWENV()
+DEBUG [01.09.2015 21:05:00]: handleNEIs()
+DEBUG [01.09.2015 21:05:00]: readNEVariables()
+DEBUG [01.09.2015 21:05:00]: readNEVariables()::INVALID VARIABLE
+DEBUG [01.09.2015 21:05:01]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@c73be3
+INFO  [01.09.2015 21:05:01]: connection #1 made.
+DEBUG [01.09.2015 21:05:03]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [01.09.2015 21:05:06]: extracted charsetName=null
+DEBUG [01.09.2015 21:05:07]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [01.09.2015 21:05:07]: вывожу состояние начальное состояние
+INFO  [01.09.2015 21:05:07]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [01.09.2015 21:05:07]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [01.09.2015 21:05:07]: isIdleNotified()=false
+ERROR [01.09.2015 21:05:53]: run()
+ru.sns.UnexpectedNestedException: Error while opening connection to wrk;  raiser: ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory, value=ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@121964c for database named wrk, NESTED: java.sql.SQLException: Io exception: The Network Adapter could not establish the connectionjava.sql.SQLException: Io exception: The Network Adapter could not establish the connection at:
+java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:420)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ru.sns.db.CustConnFactory.getConnection(CustConnFactory.java:101)
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:352)
+	at ru.sns.db.defined.PredefinedConnection.getConnection(PredefinedConnection.java:106)
+	at ru.sns.db.defined.DefaultPredefinedConnUser.getConnection(DefaultPredefinedConnUser.java:58)
+	at com.shatura.bc.tmfirst.data.db.DataCache.registerSession(DataCache.java:33)
+	at com.shatura.bc.tmfirst.logic.DBOpers.registerSession(DBOpers.java:72)
+	at com.shatura.bc.tmfirst.logic.acts.GoToMainMenuAction.perform(GoToMainMenuAction.java:21)
+	at com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState.doActionByData(InitialTerminalSessionState.java:28)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:354)
+	at ru.sns.db.defined.PredefinedConnection.getConnection(PredefinedConnection.java:106)
+	at ru.sns.db.defined.DefaultPredefinedConnUser.getConnection(DefaultPredefinedConnUser.java:58)
+	at com.shatura.bc.tmfirst.data.db.DataCache.registerSession(DataCache.java:33)
+	at com.shatura.bc.tmfirst.logic.DBOpers.registerSession(DBOpers.java:72)
+	at com.shatura.bc.tmfirst.logic.acts.GoToMainMenuAction.perform(GoToMainMenuAction.java:21)
+	at com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState.doActionByData(InitialTerminalSessionState.java:28)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+Caused by: java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:420)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ru.sns.db.CustConnFactory.getConnection(CustConnFactory.java:101)
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:352)
+	... 10 more
+DEBUG [01.09.2015 21:05:53]: registerClosedConnection()::Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections]
+DEBUG [01.09.2015 21:05:53]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections] and inactive.
+DEBUG [01.09.2015 21:05:53]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections]
+INFO  [01.09.2015 21:05:53]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]
+DEBUG [01.09.2015 21:06:08]: makeConnection()::Socket[addr=/127.0.0.1,port=57018,localport=6666]
+DEBUG [01.09.2015 21:06:08]: Character mode initialized.
+DEBUG [01.09.2015 21:06:08]: Reported terminal name XTERM
+DEBUG [01.09.2015 21:06:08]: handleNEWENV()
+DEBUG [01.09.2015 21:06:08]: handleNEIs()
+DEBUG [01.09.2015 21:06:08]: readNEVariables()
+DEBUG [01.09.2015 21:06:08]: readNEVariables()::INVALID VARIABLE
+DEBUG [01.09.2015 21:06:09]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@c73be3
+INFO  [01.09.2015 21:06:09]: connection #1 made.
+DEBUG [01.09.2015 21:06:09]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [01.09.2015 21:06:11]: extracted charsetName=null
+DEBUG [01.09.2015 21:06:11]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [01.09.2015 21:06:11]: вывожу состояние начальное состояние
+INFO  [01.09.2015 21:06:11]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [01.09.2015 21:06:11]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [01.09.2015 21:06:11]: isIdleNotified()=false
+ERROR [01.09.2015 21:06:32]: run()
+ru.sns.UnexpectedNestedException: Error while opening connection to wrk;  raiser: ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory, value=ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@121964c for database named wrk, NESTED: java.sql.SQLException: Io exception: The Network Adapter could not establish the connectionjava.sql.SQLException: Io exception: The Network Adapter could not establish the connection at:
+java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:420)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ru.sns.db.CustConnFactory.getConnection(CustConnFactory.java:101)
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:352)
+	at ru.sns.db.defined.PredefinedConnection.getConnection(PredefinedConnection.java:106)
+	at ru.sns.db.defined.DefaultPredefinedConnUser.getConnection(DefaultPredefinedConnUser.java:58)
+	at com.shatura.bc.tmfirst.data.db.DataCache.registerSession(DataCache.java:33)
+	at com.shatura.bc.tmfirst.logic.DBOpers.registerSession(DBOpers.java:72)
+	at com.shatura.bc.tmfirst.logic.acts.GoToMainMenuAction.perform(GoToMainMenuAction.java:21)
+	at com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState.doActionByData(InitialTerminalSessionState.java:28)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:354)
+	at ru.sns.db.defined.PredefinedConnection.getConnection(PredefinedConnection.java:106)
+	at ru.sns.db.defined.DefaultPredefinedConnUser.getConnection(DefaultPredefinedConnUser.java:58)
+	at com.shatura.bc.tmfirst.data.db.DataCache.registerSession(DataCache.java:33)
+	at com.shatura.bc.tmfirst.logic.DBOpers.registerSession(DBOpers.java:72)
+	at com.shatura.bc.tmfirst.logic.acts.GoToMainMenuAction.perform(GoToMainMenuAction.java:21)
+	at com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState.doActionByData(InitialTerminalSessionState.java:28)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+Caused by: java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:420)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ru.sns.db.CustConnFactory.getConnection(CustConnFactory.java:101)
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:352)
+	... 10 more
+DEBUG [01.09.2015 21:06:32]: registerClosedConnection()::Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections]
+DEBUG [01.09.2015 21:06:32]: Closed Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections] and inactive.
+DEBUG [01.09.2015 21:06:32]: run():: Returning from Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections]
+INFO  [01.09.2015 21:06:33]: cleanupClosed():: Removing closed connection Thread[Connection2,5,]
+DEBUG [01.09.2015 21:06:46]: createShellManager()
+DEBUG [01.09.2015 21:06:46]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [01.09.2015 21:06:46]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [01.09.2015 21:06:46]: Creating terminal manager.....
+DEBUG [01.09.2015 21:06:46]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [01.09.2015 21:06:46]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [01.09.2015 21:06:46]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [01.09.2015 21:06:46]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [01.09.2015 21:06:46]: Terminals:
+DEBUG [01.09.2015 21:06:46]: screen=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:06:46]: vt100=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:06:46]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:06:46]: vt102=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:06:46]: ansi=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:06:46]: linux=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:06:46]: windoof=net.wimpi.telnetd.io.terminal.Windoof@1760aec
+DEBUG [01.09.2015 21:06:46]: xterm=net.wimpi.telnetd.io.terminal.xterm@c73be3
+DEBUG [01.09.2015 21:06:46]: default=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:06:46]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:06:46]: vt320=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:06:46]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:06:46]: vt220=net.wimpi.telnetd.io.terminal.ansi@194f49e
+DEBUG [01.09.2015 21:06:46]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@47b3ee
+DEBUG [01.09.2015 21:06:46]: start()
+DEBUG [01.09.2015 21:06:46]: start()
+INFO  [01.09.2015 21:06:46]: Listening to Port 6,666 with a connectivity queue size of 5.
+INFO  [01.09.2015 21:06:46]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@121964c, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@12605d for database named wrk, named=SingleConn, seq=1) completed
+INFO  [01.09.2015 21:06:46]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [01.09.2015 21:06:46]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [01.09.2015 21:06:53]: makeConnection()::Socket[addr=/127.0.0.1,port=57040,localport=6666]
+DEBUG [01.09.2015 21:06:53]: Character mode initialized.
+DEBUG [01.09.2015 21:06:53]: Reported terminal name XTERM
+DEBUG [01.09.2015 21:06:53]: handleNEWENV()
+DEBUG [01.09.2015 21:06:53]: handleNEIs()
+DEBUG [01.09.2015 21:06:53]: readNEVariables()
+DEBUG [01.09.2015 21:06:53]: readNEVariables()::INVALID VARIABLE
+DEBUG [01.09.2015 21:06:54]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@c73be3
+INFO  [01.09.2015 21:06:54]: connection #1 made.
+DEBUG [01.09.2015 21:06:54]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [01.09.2015 21:06:56]: extracted charsetName=null
+DEBUG [01.09.2015 21:06:56]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [01.09.2015 21:06:56]: вывожу состояние начальное состояние
+INFO  [01.09.2015 21:06:56]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [01.09.2015 21:06:56]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [01.09.2015 21:06:56]: isIdleNotified()=false
+ERROR [01.09.2015 21:07:39]: run()
+ru.sns.UnexpectedNestedException: Error while opening connection to wrk;  raiser: ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory, value=ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@12605d for database named wrk, NESTED: java.sql.SQLException: Io exception: The Network Adapter could not establish the connectionjava.sql.SQLException: Io exception: The Network Adapter could not establish the connection at:
+java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:420)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ru.sns.db.CustConnFactory.getConnection(CustConnFactory.java:101)
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:352)
+	at ru.sns.db.defined.PredefinedConnection.getConnection(PredefinedConnection.java:106)
+	at ru.sns.db.defined.DefaultPredefinedConnUser.getConnection(DefaultPredefinedConnUser.java:58)
+	at com.shatura.bc.tmfirst.data.db.DataCache.registerSession(DataCache.java:33)
+	at com.shatura.bc.tmfirst.logic.DBOpers.registerSession(DBOpers.java:72)
+	at com.shatura.bc.tmfirst.logic.acts.GoToMainMenuAction.perform(GoToMainMenuAction.java:21)
+	at com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState.doActionByData(InitialTerminalSessionState.java:28)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:354)
+	at ru.sns.db.defined.PredefinedConnection.getConnection(PredefinedConnection.java:106)
+	at ru.sns.db.defined.DefaultPredefinedConnUser.getConnection(DefaultPredefinedConnUser.java:58)
+	at com.shatura.bc.tmfirst.data.db.DataCache.registerSession(DataCache.java:33)
+	at com.shatura.bc.tmfirst.logic.DBOpers.registerSession(DBOpers.java:72)
+	at com.shatura.bc.tmfirst.logic.acts.GoToMainMenuAction.perform(GoToMainMenuAction.java:21)
+	at com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState.doActionByData(InitialTerminalSessionState.java:28)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+Caused by: java.sql.SQLException: Io exception: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:387)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:420)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:165)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:35)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:801)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:215)
+	at ru.sns.db.CustConnFactory.getConnection(CustConnFactory.java:101)
+	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:352)
+	... 10 more
+DEBUG [01.09.2015 21:07:39]: registerClosedConnection()::Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections]
+DEBUG [01.09.2015 21:07:39]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections] and inactive.
+DEBUG [01.09.2015 21:07:39]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections]
+INFO  [01.09.2015 21:07:39]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]
