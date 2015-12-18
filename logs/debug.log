@@ -298,3 +298,1466 @@ DEBUG [01.09.2015 21:07:39]: registerClosedConnection()::Thread[Connection1,5,ne
 DEBUG [01.09.2015 21:07:39]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections] and inactive.
 DEBUG [01.09.2015 21:07:39]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@108beb8Connections]
 INFO  [01.09.2015 21:07:39]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]
+DEBUG [16.12.2015 13:55:00]: createShellManager()
+DEBUG [16.12.2015 13:55:00]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [16.12.2015 13:55:00]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [16.12.2015 13:55:00]: Creating terminal manager.....
+DEBUG [16.12.2015 13:55:00]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [16.12.2015 13:55:00]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [16.12.2015 13:55:00]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [16.12.2015 13:55:00]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [16.12.2015 13:55:00]: Terminals:
+DEBUG [16.12.2015 13:55:00]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 13:55:00]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 13:55:00]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 13:55:00]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 13:55:00]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 13:55:00]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 13:55:00]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 13:55:00]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 13:55:00]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [16.12.2015 13:55:00]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 13:55:00]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 13:55:00]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [16.12.2015 13:55:00]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 13:55:00]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 13:55:00]: start()
+DEBUG [16.12.2015 13:55:00]: start()
+INFO  [16.12.2015 13:55:00]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@599909b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@314996eb for database named wrk, named=SingleConn, seq=1) completed
+INFO  [16.12.2015 13:55:00]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [16.12.2015 13:55:00]: PreloadIngrCacheLimit = 0: ??? ??? ?? ??????!
+INFO  [16.12.2015 13:55:00]: PreloadIngrCacheLimit = 0: ??? ??? ?? ??????!
+DEBUG [16.12.2015 14:08:06]: createShellManager()
+DEBUG [16.12.2015 14:08:06]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [16.12.2015 14:08:06]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [16.12.2015 14:08:06]: Creating terminal manager.....
+DEBUG [16.12.2015 14:08:06]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [16.12.2015 14:08:06]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [16.12.2015 14:08:06]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [16.12.2015 14:08:06]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [16.12.2015 14:08:06]: Terminals:
+DEBUG [16.12.2015 14:08:06]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:08:06]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:08:06]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:08:06]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:08:06]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:08:06]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:08:06]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:08:06]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:08:06]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [16.12.2015 14:08:06]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:08:06]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:08:06]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [16.12.2015 14:08:06]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:08:06]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:08:06]: start()
+DEBUG [16.12.2015 14:08:06]: start()
+INFO  [16.12.2015 14:08:06]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [16.12.2015 14:08:06]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@418d63c2, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@7401d7c4 for database named wrk, named=SingleConn, seq=1) completed
+INFO  [16.12.2015 14:08:06]: PreloadIngrCacheLimit = 0: ??? ??? ?? ??????!
+INFO  [16.12.2015 14:08:06]: PreloadIngrCacheLimit = 0: ??? ??? ?? ??????!
+DEBUG [16.12.2015 14:12:12]: createShellManager()
+DEBUG [16.12.2015 14:12:12]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [16.12.2015 14:12:12]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [16.12.2015 14:12:12]: Creating terminal manager.....
+DEBUG [16.12.2015 14:12:12]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [16.12.2015 14:12:12]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [16.12.2015 14:12:12]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [16.12.2015 14:12:12]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [16.12.2015 14:12:12]: Terminals:
+DEBUG [16.12.2015 14:12:12]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:12:12]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:12:12]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:12:12]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:12:12]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:12:12]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:12:12]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:12:12]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:12:12]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [16.12.2015 14:12:12]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:12:12]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [16.12.2015 14:12:12]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [16.12.2015 14:12:12]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:12:12]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [16.12.2015 14:12:12]: start()
+DEBUG [16.12.2015 14:12:12]: start()
+INFO  [16.12.2015 14:12:12]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [16.12.2015 14:12:12]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@3d8ee54b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@344a0bd6 for database named wrk, named=SingleConn, seq=1) completed
+INFO  [16.12.2015 14:12:12]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [16.12.2015 14:12:12]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [17.12.2015 11:52:53]: createShellManager()
+DEBUG [17.12.2015 11:52:53]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [17.12.2015 11:52:53]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [17.12.2015 11:52:53]: Creating terminal manager.....
+DEBUG [17.12.2015 11:52:53]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [17.12.2015 11:52:53]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [17.12.2015 11:52:53]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [17.12.2015 11:52:53]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [17.12.2015 11:52:53]: Terminals:
+DEBUG [17.12.2015 11:52:53]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 11:52:53]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 11:52:53]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 11:52:53]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 11:52:53]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 11:52:53]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 11:52:53]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 11:52:53]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 11:52:53]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [17.12.2015 11:52:53]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 11:52:53]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 11:52:53]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [17.12.2015 11:52:53]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 11:52:53]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 11:52:53]: start()
+DEBUG [17.12.2015 11:52:53]: start()
+INFO  [17.12.2015 11:52:53]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [17.12.2015 11:52:53]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@418d63c2, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@7401d7c4 for database named wrk, named=SingleConn, seq=1) completed
+INFO  [17.12.2015 11:52:53]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [17.12.2015 11:52:53]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [17.12.2015 11:52:59]: makeConnection()::Socket[addr=/127.0.0.1,port=56702,localport=6666]
+DEBUG [17.12.2015 11:52:59]: Character mode initialized.
+DEBUG [17.12.2015 11:52:59]: Reported terminal name XTERM
+DEBUG [17.12.2015 11:52:59]: handleNEWENV()
+DEBUG [17.12.2015 11:52:59]: handleNEIs()
+DEBUG [17.12.2015 11:52:59]: readNEVariables()
+DEBUG [17.12.2015 11:52:59]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 11:53:00]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 11:53:00]: connection #1 made.
+DEBUG [17.12.2015 11:53:00]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 11:53:02]: extracted charsetName=null
+DEBUG [17.12.2015 11:53:03]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 11:53:03]: вывожу состояние начальное состояние
+INFO  [17.12.2015 11:53:03]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 11:53:03]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 11:53:03]: isIdleNotified()=false
+INFO  [17.12.2015 11:53:03]: для сессии присвоили sess=113218
+DEBUG [17.12.2015 11:53:03]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 11:53:03]: следующим состоянием стало главное меню
+INFO  [17.12.2015 11:53:03]: вывожу состояние главное меню
+INFO  [17.12.2015 11:53:03]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 11:53:12]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 11:53:12]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5bcf9fae): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 11:53:12]: isIdleNotified()=false
+INFO  [17.12.2015 11:53:13]: сканировано bcd=6483748, ingred=SE5.12-О 0 0 0.00 027 (114822), tim=null, dprt=Бюро координации производства_old (401), uniqComp=50873603~~~
+DEBUG [17.12.2015 11:53:13]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [17.12.2015 11:53:13]: следующим состоянием стало уведомление
+INFO  [17.12.2015 11:53:13]: вывожу состояние уведомление
+INFO  [17.12.2015 11:53:13]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:00:48]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:00:48]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@24a589bd): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:00:48]: isIdleNotified()=false
+INFO  [17.12.2015 12:00:48]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:00:48]: вывожу состояние главное меню
+INFO  [17.12.2015 12:00:48]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:00:49]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:00:49]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5c0f6dd9): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:00:49]: isIdleNotified()=false
+INFO  [17.12.2015 12:00:49]: bcd пустой
+INFO  [17.12.2015 12:00:49]: для сессии присвоили PersonData=null
+DEBUG [17.12.2015 12:00:49]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [17.12.2015 12:00:49]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [17.12.2015 12:00:49]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [17.12.2015 12:00:49]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:00:49]: вывожу состояние вопрос
+INFO  [17.12.2015 12:00:49]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:00:51]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:00:51]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@50d4bfa): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:00:51]: isIdleNotified()=false
+INFO  [17.12.2015 12:00:51]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:00:51]: вывожу состояние вопрос
+INFO  [17.12.2015 12:00:51]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:00:52]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:00:52]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@7cbe5ec6): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:00:52]: isIdleNotified()=false
+INFO  [17.12.2015 12:00:52]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:00:52]: вывожу состояние уведомление
+INFO  [17.12.2015 12:00:52]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:00:54]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:00:54]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@74dec88d): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:00:54]: isIdleNotified()=false
+INFO  [17.12.2015 12:00:54]: следующим состоянием стало никакое
+INFO  [17.12.2015 12:00:54]: процессор закончил работу
+DEBUG [17.12.2015 12:00:54]: registerClosedConnection()::Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 12:00:54]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [17.12.2015 12:00:54]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 12:00:55]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]
+DEBUG [17.12.2015 12:00:59]: makeConnection()::Socket[addr=/127.0.0.1,port=56718,localport=6666]
+DEBUG [17.12.2015 12:00:59]: Character mode initialized.
+DEBUG [17.12.2015 12:00:59]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:00:59]: handleNEWENV()
+DEBUG [17.12.2015 12:00:59]: handleNEIs()
+DEBUG [17.12.2015 12:00:59]: readNEVariables()
+DEBUG [17.12.2015 12:00:59]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:01:00]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:01:00]: connection #1 made.
+DEBUG [17.12.2015 12:01:00]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:01:01]: extracted charsetName=null
+DEBUG [17.12.2015 12:01:01]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:01:01]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:01:01]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:01:01]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:01]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:01]: для сессии присвоили sess=113219
+DEBUG [17.12.2015 12:01:01]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:01:01]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:01:01]: вывожу состояние главное меню
+INFO  [17.12.2015 12:01:01]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:01:13]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:01:13]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@21a603e6): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:13]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:13]: сканировано bcd=6483749, ingred=SE5.12-О 0 0 0.00 027 (114822), tim=null, dprt=Бюро координации производства_old (401), uniqComp=50873603~~~
+DEBUG [17.12.2015 12:01:13]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [17.12.2015 12:01:13]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:01:13]: вывожу состояние уведомление
+INFO  [17.12.2015 12:01:13]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:01:21]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:01:21]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@2f61e9a2): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:21]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:21]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:01:21]: вывожу состояние главное меню
+INFO  [17.12.2015 12:01:21]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:01:23]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:01:23]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@2b5e6896): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:23]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:23]: сканировано bcd=6483750, person=Четвергова Е.В. (15055)~~~
+INFO  [17.12.2015 12:01:23]: для сессии присвоили PersonData=6483750, person=Четвергова Е.В. (15055)
+INFO  [17.12.2015 12:01:23]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:01:23]: вывожу состояние главное меню
+INFO  [17.12.2015 12:01:23]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:01:36]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:01:36]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@6e5ce399): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:36]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:36]: сканировано bcd=6483751, ingred=SE5.12-О 0 0 0.00 027 (114822), tim=null, dprt=Бюро координации производства_old (401), uniqComp=50873603~~~
+DEBUG [17.12.2015 12:01:36]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [17.12.2015 12:01:36]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:01:36]: вывожу состояние уведомление
+INFO  [17.12.2015 12:01:36]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:01:38]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:01:38]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@7f746487): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:38]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:38]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:01:38]: вывожу состояние главное меню
+INFO  [17.12.2015 12:01:38]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:01:39]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:01:39]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5f78ae32): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:39]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:39]: bcd пустой
+INFO  [17.12.2015 12:01:39]: для сессии присвоили PersonData=null
+DEBUG [17.12.2015 12:01:39]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [17.12.2015 12:01:39]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [17.12.2015 12:01:39]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [17.12.2015 12:01:39]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:01:39]: вывожу состояние вопрос
+INFO  [17.12.2015 12:01:39]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:01:41]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:01:41]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@7ba7793): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:41]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:41]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:01:41]: вывожу состояние вопрос
+INFO  [17.12.2015 12:01:41]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:01:42]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:01:42]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@e731cd6): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:42]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:42]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:01:42]: вывожу состояние уведомление
+INFO  [17.12.2015 12:01:42]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:01:43]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:01:43]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@527f01c3): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:01:43]: isIdleNotified()=false
+INFO  [17.12.2015 12:01:43]: следующим состоянием стало никакое
+INFO  [17.12.2015 12:01:43]: процессор закончил работу
+DEBUG [17.12.2015 12:01:43]: registerClosedConnection()::Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 12:01:43]: Closed Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [17.12.2015 12:01:43]: run():: Returning from Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 12:01:43]: cleanupClosed():: Removing closed connection Thread[Connection2,5,]
+DEBUG [17.12.2015 12:02:08]: createShellManager()
+DEBUG [17.12.2015 12:02:08]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [17.12.2015 12:02:08]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [17.12.2015 12:02:08]: Creating terminal manager.....
+DEBUG [17.12.2015 12:02:08]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [17.12.2015 12:02:08]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [17.12.2015 12:02:08]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [17.12.2015 12:02:08]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [17.12.2015 12:02:08]: Terminals:
+DEBUG [17.12.2015 12:02:08]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:02:08]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:02:08]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:02:08]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:02:08]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:02:08]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:02:08]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:02:08]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:02:08]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [17.12.2015 12:02:08]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:02:08]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:02:08]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [17.12.2015 12:02:08]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:02:08]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:02:08]: start()
+DEBUG [17.12.2015 12:02:08]: start()
+INFO  [17.12.2015 12:02:08]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [17.12.2015 12:02:08]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@3d8ee54b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@344a0bd6 for database named wrk, named=SingleConn, seq=1) completed
+INFO  [17.12.2015 12:02:08]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [17.12.2015 12:02:08]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [17.12.2015 12:02:20]: makeConnection()::Socket[addr=/127.0.0.1,port=56732,localport=6666]
+DEBUG [17.12.2015 12:02:20]: Character mode initialized.
+DEBUG [17.12.2015 12:02:20]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:02:20]: handleNEWENV()
+DEBUG [17.12.2015 12:02:20]: handleNEIs()
+DEBUG [17.12.2015 12:02:20]: readNEVariables()
+DEBUG [17.12.2015 12:02:20]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:02:21]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:02:21]: connection #1 made.
+DEBUG [17.12.2015 12:02:21]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:02:23]: extracted charsetName=null
+DEBUG [17.12.2015 12:02:23]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:02:23]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:02:23]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:02:23]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:02:23]: isIdleNotified()=false
+INFO  [17.12.2015 12:02:24]: для сессии присвоили sess=113220
+DEBUG [17.12.2015 12:02:24]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:02:24]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:02:24]: вывожу состояние главное меню
+INFO  [17.12.2015 12:02:24]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+DEBUG [17.12.2015 12:03:24]: makeConnection()::Socket[addr=/127.0.0.1,port=56734,localport=6666]
+DEBUG [17.12.2015 12:03:24]: Character mode initialized.
+DEBUG [17.12.2015 12:03:24]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:03:24]: handleNEWENV()
+DEBUG [17.12.2015 12:03:24]: handleNEIs()
+DEBUG [17.12.2015 12:03:24]: readNEVariables()
+DEBUG [17.12.2015 12:03:24]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:03:25]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:03:25]: connection #2 made.
+DEBUG [17.12.2015 12:03:25]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:03:26]: extracted charsetName=null
+DEBUG [17.12.2015 12:03:27]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:03:27]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:03:27]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:03:27]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:27]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:27]: для сессии присвоили sess=113221
+DEBUG [17.12.2015 12:03:27]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:03:27]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:03:27]: вывожу состояние главное меню
+INFO  [17.12.2015 12:03:27]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:03:40]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:03:40]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@6e0a5aba): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:40]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:41]: сканировано bcd=6483752, person=Четвергова Е.В. (15055)~~~
+INFO  [17.12.2015 12:03:41]: для сессии присвоили PersonData=6483752, person=Четвергова Е.В. (15055)
+INFO  [17.12.2015 12:03:41]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:03:41]: вывожу состояние главное меню
+INFO  [17.12.2015 12:03:41]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:03:48]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:03:48]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@1ba154e1): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:48]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:48]: сканировано bcd=6483753, ingred=SE5.12-О 0 0 0.00 027 (114822), tim=null, dprt=Бюро координации производства_old (401), uniqComp=50873603~~~
+DEBUG [17.12.2015 12:03:48]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [17.12.2015 12:03:48]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:03:48]: вывожу состояние уведомление
+INFO  [17.12.2015 12:03:48]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:03:54]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:03:54]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@454f2dfb): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:54]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:54]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:03:54]: вывожу состояние главное меню
+INFO  [17.12.2015 12:03:54]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:03:55]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:03:55]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@30a454ed): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:55]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:55]: bcd пустой
+INFO  [17.12.2015 12:03:55]: для сессии присвоили PersonData=null
+DEBUG [17.12.2015 12:03:55]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [17.12.2015 12:03:55]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [17.12.2015 12:03:55]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [17.12.2015 12:03:55]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:03:55]: вывожу состояние вопрос
+INFO  [17.12.2015 12:03:55]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:03:56]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:03:56]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@2399f62c): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:56]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:56]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:03:56]: вывожу состояние главное меню
+INFO  [17.12.2015 12:03:56]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:03:58]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:03:58]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@320eb8e2): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:58]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:58]: вместо ШК хотят чего-то другого: 
+DEBUG [17.12.2015 12:03:58]: new state is com.shatura.bc.tmfirst.logic.states.AnyScanAltState
+DEBUG [17.12.2015 12:03:58]: new state is com.shatura.bc.tmfirst.logic.states.AnyScanAltState$TaskStatusChecker
+DEBUG [17.12.2015 12:03:58]: new state is com.shatura.bc.tmfirst.logic.states.AnyScanAltState$TaskStatusChecker
+INFO  [17.12.2015 12:03:58]: следующим состоянием стало class com.shatura.bc.tmfirst.logic.states.NumbChoiceState
+INFO  [17.12.2015 12:03:58]: вывожу состояние class com.shatura.bc.tmfirst.logic.states.NumbChoiceState
+INFO  [17.12.2015 12:03:58]: состояние class com.shatura.bc.tmfirst.logic.states.NumbChoiceState успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$UserNumbChoice
+INFO  [17.12.2015 12:03:59]: состояние class com.shatura.bc.tmfirst.logic.states.NumbChoiceState с терминала получило данные
+DEBUG [17.12.2015 12:03:59]: class com.shatura.bc.tmfirst.logic.states.NumbChoiceState.processData(com.shatura.bc.tmfirst.logic.UserQuery$UserNumbChoice@e126bad): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:03:59]: isIdleNotified()=false
+INFO  [17.12.2015 12:03:59]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:03:59]: вывожу состояние главное меню
+INFO  [17.12.2015 12:03:59]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:04:03]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:04:03]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@1c0355be): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:04:03]: isIdleNotified()=false
+INFO  [17.12.2015 12:04:03]: bcd пустой
+INFO  [17.12.2015 12:04:03]: для сессии присвоили PersonData=null
+DEBUG [17.12.2015 12:04:03]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [17.12.2015 12:04:03]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [17.12.2015 12:04:03]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [17.12.2015 12:04:03]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:04:03]: вывожу состояние вопрос
+INFO  [17.12.2015 12:04:03]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:04:04]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:04:04]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@7047e884): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:04:04]: isIdleNotified()=false
+INFO  [17.12.2015 12:04:04]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:04:04]: вывожу состояние вопрос
+INFO  [17.12.2015 12:04:04]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:04:04]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:04:04]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@37c987c6): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:04:04]: isIdleNotified()=false
+INFO  [17.12.2015 12:04:04]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:04:04]: вывожу состояние уведомление
+INFO  [17.12.2015 12:04:04]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:04:05]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:04:05]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@2a1bcd91): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:04:05]: isIdleNotified()=false
+INFO  [17.12.2015 12:04:05]: следующим состоянием стало никакое
+INFO  [17.12.2015 12:04:05]: процессор закончил работу
+DEBUG [17.12.2015 12:04:05]: registerClosedConnection()::Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 12:04:05]: Closed Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [17.12.2015 12:04:05]: run():: Returning from Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 12:04:06]: cleanupClosed():: Removing closed connection Thread[Connection2,5,]
+DEBUG [17.12.2015 12:04:47]: createShellManager()
+DEBUG [17.12.2015 12:04:47]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [17.12.2015 12:04:47]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [17.12.2015 12:04:47]: Creating terminal manager.....
+DEBUG [17.12.2015 12:04:47]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [17.12.2015 12:04:47]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [17.12.2015 12:04:47]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [17.12.2015 12:04:47]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [17.12.2015 12:04:47]: Terminals:
+DEBUG [17.12.2015 12:04:47]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:04:47]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:04:47]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:04:47]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:04:47]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:04:47]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:04:47]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:04:47]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:04:47]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [17.12.2015 12:04:47]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:04:47]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:04:47]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [17.12.2015 12:04:47]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:04:47]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:04:47]: start()
+DEBUG [17.12.2015 12:04:47]: start()
+INFO  [17.12.2015 12:04:47]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [17.12.2015 12:04:47]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@3d8ee54b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@344a0bd6 for database named wrk, named=SingleConn, seq=1) completed
+INFO  [17.12.2015 12:04:47]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [17.12.2015 12:04:47]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [17.12.2015 12:05:02]: makeConnection()::Socket[addr=/127.0.0.1,port=56738,localport=6666]
+DEBUG [17.12.2015 12:05:02]: Character mode initialized.
+DEBUG [17.12.2015 12:05:02]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:05:02]: handleNEWENV()
+DEBUG [17.12.2015 12:05:02]: handleNEIs()
+DEBUG [17.12.2015 12:05:02]: readNEVariables()
+DEBUG [17.12.2015 12:05:02]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:05:03]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:05:03]: connection #1 made.
+DEBUG [17.12.2015 12:05:03]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:05:10]: extracted charsetName=null
+DEBUG [17.12.2015 12:05:11]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:05:11]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:05:11]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:05:11]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:05:11]: isIdleNotified()=false
+INFO  [17.12.2015 12:05:11]: для сессии присвоили sess=113222
+DEBUG [17.12.2015 12:05:11]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:05:11]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:05:11]: вывожу состояние главное меню
+INFO  [17.12.2015 12:05:11]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+DEBUG [17.12.2015 12:06:25]: makeConnection()::Socket[addr=/192.168.28.7,port=56740,localport=6666]
+DEBUG [17.12.2015 12:06:25]: Character mode initialized.
+DEBUG [17.12.2015 12:06:25]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:06:25]: handleNEWENV()
+DEBUG [17.12.2015 12:06:25]: handleNEIs()
+DEBUG [17.12.2015 12:06:25]: readNEVariables()
+DEBUG [17.12.2015 12:06:25]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:06:26]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:06:26]: connection #2 made.
+DEBUG [17.12.2015 12:06:26]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:06:29]: extracted charsetName=null
+DEBUG [17.12.2015 12:06:29]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:06:29]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:06:29]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:06:29]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:06:29]: isIdleNotified()=false
+INFO  [17.12.2015 12:06:29]: для сессии присвоили sess=113223
+DEBUG [17.12.2015 12:06:29]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:06:29]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:06:29]: вывожу состояние главное меню
+INFO  [17.12.2015 12:06:29]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+DEBUG [17.12.2015 12:09:33]: makeConnection()::Socket[addr=/192.168.28.29,port=64854,localport=6666]
+DEBUG [17.12.2015 12:09:33]: Character mode initialized.
+DEBUG [17.12.2015 12:09:33]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:09:33]: handleNEWENV()
+DEBUG [17.12.2015 12:09:33]: handleNEIs()
+DEBUG [17.12.2015 12:09:33]: readNEVariables()
+DEBUG [17.12.2015 12:09:33]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:09:34]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:09:34]: connection #3 made.
+DEBUG [17.12.2015 12:09:34]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:09:37]: extracted charsetName=null
+DEBUG [17.12.2015 12:09:38]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:09:38]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:09:38]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:09:38]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:09:38]: isIdleNotified()=false
+INFO  [17.12.2015 12:09:38]: для сессии присвоили sess=113224
+DEBUG [17.12.2015 12:09:38]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:09:38]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:09:38]: вывожу состояние главное меню
+INFO  [17.12.2015 12:09:38]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+DEBUG [17.12.2015 12:10:40]: createShellManager()
+DEBUG [17.12.2015 12:10:40]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [17.12.2015 12:10:40]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [17.12.2015 12:10:40]: Creating terminal manager.....
+DEBUG [17.12.2015 12:10:40]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [17.12.2015 12:10:40]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [17.12.2015 12:10:40]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [17.12.2015 12:10:40]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [17.12.2015 12:10:40]: Terminals:
+DEBUG [17.12.2015 12:10:40]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:10:40]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:10:40]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:10:40]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:10:40]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:10:40]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:10:40]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:10:40]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:10:40]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [17.12.2015 12:10:40]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:10:40]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [17.12.2015 12:10:40]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [17.12.2015 12:10:40]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:10:40]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [17.12.2015 12:10:40]: start()
+DEBUG [17.12.2015 12:10:40]: start()
+INFO  [17.12.2015 12:10:40]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [17.12.2015 12:10:40]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@599909b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@314996eb for database named wrk, named=SingleConn, seq=1) completed
+INFO  [17.12.2015 12:10:40]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [17.12.2015 12:10:40]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [17.12.2015 12:11:39]: makeConnection()::Socket[addr=/192.168.28.29,port=64881,localport=6666]
+DEBUG [17.12.2015 12:11:39]: Character mode initialized.
+DEBUG [17.12.2015 12:11:39]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:11:39]: handleNEWENV()
+DEBUG [17.12.2015 12:11:39]: handleNEIs()
+DEBUG [17.12.2015 12:11:39]: readNEVariables()
+DEBUG [17.12.2015 12:11:39]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:11:40]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:11:40]: connection #1 made.
+DEBUG [17.12.2015 12:11:40]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:11:42]: extracted charsetName=null
+DEBUG [17.12.2015 12:11:43]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:11:43]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:11:43]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:11:43]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:11:43]: isIdleNotified()=false
+INFO  [17.12.2015 12:11:43]: для сессии присвоили sess=113225
+DEBUG [17.12.2015 12:11:43]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:11:43]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:11:43]: вывожу состояние главное меню
+INFO  [17.12.2015 12:11:43]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+DEBUG [17.12.2015 12:20:03]: checkOpenConnections():Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded warning timeout.
+WARN  [17.12.2015 12:20:03]: главное меню: получен сигнал о длительном бездействии
+WARN  [17.12.2015 12:20:03]: setIdleNotified(true)
+WARN  [17.12.2015 12:20:03]: ожидание ввода прервано, предположительно состоянием главное меню
+INFO  [17.12.2015 12:20:03]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:20:03]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@72d7dada): idleNotified=true, disconnectReason=null
+DEBUG [17.12.2015 12:20:03]: isIdleNotified()=true
+DEBUG [17.12.2015 12:20:03]: new state is com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState
+INFO  [17.12.2015 12:20:03]: следующим состоянием стало предупреджение о бездействии
+INFO  [17.12.2015 12:20:03]: вывожу состояние предупреджение о бездействии
+INFO  [17.12.2015 12:20:03]: состояние предупреджение о бездействии успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 12:20:20]: makeConnection()::Socket[addr=/192.168.28.193,port=1040,localport=6666]
+DEBUG [17.12.2015 12:20:22]: Character mode initialized.
+DEBUG [17.12.2015 12:20:23]: Reported terminal name VT220
+DEBUG [17.12.2015 12:20:23]: handleNEWENV()
+DEBUG [17.12.2015 12:20:23]: handleNEIs()
+DEBUG [17.12.2015 12:20:23]: readNEVariables()
+DEBUG [17.12.2015 12:20:23]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:20:24]: Set terminal to net.wimpi.telnetd.io.terminal.ansi@41975e01
+INFO  [17.12.2015 12:20:24]: connection #2 made.
+DEBUG [17.12.2015 12:20:24]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:20:28]: extracted charsetName=null
+DEBUG [17.12.2015 12:20:29]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:20:29]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:20:29]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:20:29]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:20:29]: isIdleNotified()=false
+INFO  [17.12.2015 12:20:29]: для сессии присвоили sess=113226
+DEBUG [17.12.2015 12:20:29]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:20:29]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:20:29]: вывожу состояние главное меню
+INFO  [17.12.2015 12:20:29]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+DEBUG [17.12.2015 12:25:54]: makeConnection()::Socket[addr=/192.168.28.7,port=56761,localport=6666]
+DEBUG [17.12.2015 12:25:54]: Character mode initialized.
+DEBUG [17.12.2015 12:25:54]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:25:54]: handleNEWENV()
+DEBUG [17.12.2015 12:25:54]: handleNEIs()
+DEBUG [17.12.2015 12:25:54]: readNEVariables()
+DEBUG [17.12.2015 12:25:54]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:25:55]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:25:55]: connection #3 made.
+DEBUG [17.12.2015 12:25:55]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+ERROR [17.12.2015 12:25:56]: disconnect(проблема в основном цикле ожидания ввода null)
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.TerminalSession.showMessage(TerminalSession.java:427)
+	at com.shatura.bc.tmfirst.TerminalSession.disconnect(TerminalSession.java:441)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:316)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+ERROR [17.12.2015 12:25:56]: run()
+java.io.EOFException
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:290)
+	at net.wimpi.telnetd.io.TelnetIO.readUnsignedByteBySNS(TelnetIO.java:432)
+	at net.wimpi.telnetd.io.TelnetIO.rawread(TelnetIO.java:468)
+	at net.wimpi.telnetd.io.TelnetIO.read(TelnetIO.java:329)
+	at net.wimpi.telnetd.io.TerminalIO.read(TerminalIO.java:150)
+	at net.wimpi.telnetd.io.toolkit.Editfield.run(Editfield.java:269)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:291)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+ERROR [17.12.2015 12:25:56]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+DEBUG [17.12.2015 12:25:56]: registerClosedConnection()::Thread[Connection3,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 12:25:56]: Closed Thread[Connection3,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [17.12.2015 12:25:56]: run():: Returning from Thread[Connection3,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 12:25:56]: cleanupClosed():: Removing closed connection Thread[Connection3,5,]
+DEBUG [17.12.2015 12:26:00]: makeConnection()::Socket[addr=/127.0.0.1,port=56762,localport=6666]
+DEBUG [17.12.2015 12:26:00]: Character mode initialized.
+DEBUG [17.12.2015 12:26:00]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:26:00]: handleNEWENV()
+DEBUG [17.12.2015 12:26:00]: handleNEIs()
+DEBUG [17.12.2015 12:26:00]: readNEVariables()
+DEBUG [17.12.2015 12:26:00]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:26:01]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:26:01]: connection #3 made.
+DEBUG [17.12.2015 12:26:01]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:26:03]: extracted charsetName=null
+DEBUG [17.12.2015 12:26:04]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:26:04]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:26:04]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:26:04]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:26:04]: isIdleNotified()=false
+INFO  [17.12.2015 12:26:05]: для сессии присвоили sess=113227
+DEBUG [17.12.2015 12:26:05]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:26:05]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:26:05]: вывожу состояние главное меню
+INFO  [17.12.2015 12:26:05]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:26:22]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:26:22]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@3fe5b4ea): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:26:22]: isIdleNotified()=false
+INFO  [17.12.2015 12:26:22]: сканировано bcd=6483754, ingred=SE5.12-О 0 0 0.00 027 (114822), tim=null, dprt=Бюро координации производства_old (401), uniqComp=50873603~~~
+DEBUG [17.12.2015 12:26:22]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [17.12.2015 12:26:22]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:26:22]: вывожу состояние уведомление
+INFO  [17.12.2015 12:26:22]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:26:51]: состояние предупреджение о бездействии с терминала получило данные
+DEBUG [17.12.2015 12:26:51]: предупреджение о бездействии.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@715b7b7c): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:26:51]: isIdleNotified()=false
+INFO  [17.12.2015 12:26:51]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:26:51]: вывожу состояние главное меню
+INFO  [17.12.2015 12:26:51]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:26:52]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:26:52]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@18d8c7ca): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:26:52]: isIdleNotified()=false
+INFO  [17.12.2015 12:26:52]: bcd пустой
+INFO  [17.12.2015 12:26:52]: для сессии присвоили PersonData=null
+DEBUG [17.12.2015 12:26:52]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [17.12.2015 12:26:52]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [17.12.2015 12:26:52]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [17.12.2015 12:26:52]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:26:52]: вывожу состояние вопрос
+INFO  [17.12.2015 12:26:52]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:26:54]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:26:54]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@16f508ae): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:26:54]: isIdleNotified()=false
+INFO  [17.12.2015 12:26:54]: следующим состоянием стало вопрос
+INFO  [17.12.2015 12:26:54]: вывожу состояние вопрос
+INFO  [17.12.2015 12:26:54]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [17.12.2015 12:26:54]: состояние вопрос с терминала получило данные
+DEBUG [17.12.2015 12:26:54]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@5a3811a0): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:26:54]: isIdleNotified()=false
+INFO  [17.12.2015 12:26:54]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:26:54]: вывожу состояние уведомление
+INFO  [17.12.2015 12:26:54]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 12:28:50]: checkOpenConnections():Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded warning timeout.
+WARN  [17.12.2015 12:28:50]: главное меню: получен сигнал о длительном бездействии
+WARN  [17.12.2015 12:28:50]: setIdleNotified(true)
+WARN  [17.12.2015 12:28:50]: ожидание ввода прервано, предположительно состоянием главное меню
+INFO  [17.12.2015 12:28:50]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:28:50]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@1ace8d4): idleNotified=true, disconnectReason=null
+DEBUG [17.12.2015 12:28:50]: isIdleNotified()=true
+DEBUG [17.12.2015 12:28:50]: new state is com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState
+INFO  [17.12.2015 12:28:50]: следующим состоянием стало предупреджение о бездействии
+INFO  [17.12.2015 12:28:50]: вывожу состояние предупреджение о бездействии
+INFO  [17.12.2015 12:28:50]: состояние предупреджение о бездействии успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 12:34:42]: checkOpenConnections():Thread[Connection4,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded warning timeout.
+WARN  [17.12.2015 12:34:42]: уведомление: получен сигнал о длительном бездействии
+WARN  [17.12.2015 12:34:42]: setIdleNotified(true)
+WARN  [17.12.2015 12:34:42]: ожидание ввода прервано, предположительно состоянием уведомление
+INFO  [17.12.2015 12:34:42]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:34:42]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@1c52ddd7): idleNotified=true, disconnectReason=null
+DEBUG [17.12.2015 12:34:42]: isIdleNotified()=true
+DEBUG [17.12.2015 12:34:42]: new state is com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState
+INFO  [17.12.2015 12:34:42]: следующим состоянием стало предупреджение о бездействии
+INFO  [17.12.2015 12:34:42]: вывожу состояние предупреджение о бездействии
+INFO  [17.12.2015 12:34:42]: состояние предупреджение о бездействии успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 12:35:15]: checkOpenConnections():Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded warning timeout.
+WARN  [17.12.2015 12:35:15]: уведомление: получен сигнал о длительном бездействии
+WARN  [17.12.2015 12:35:15]: setIdleNotified(true)
+WARN  [17.12.2015 12:35:15]: ожидание ввода прервано, предположительно состоянием уведомление
+INFO  [17.12.2015 12:35:15]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:35:15]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@2e2a7e4f): idleNotified=true, disconnectReason=null
+DEBUG [17.12.2015 12:35:15]: isIdleNotified()=true
+DEBUG [17.12.2015 12:35:15]: new state is com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState
+INFO  [17.12.2015 12:35:15]: следующим состоянием стало предупреджение о бездействии
+INFO  [17.12.2015 12:35:15]: вывожу состояние предупреджение о бездействии
+INFO  [17.12.2015 12:35:15]: состояние предупреджение о бездействии успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:38:11]: состояние предупреджение о бездействии с терминала получило данные
+DEBUG [17.12.2015 12:38:11]: предупреджение о бездействии.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@10a4b35c): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:38:11]: isIdleNotified()=false
+INFO  [17.12.2015 12:38:11]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:38:11]: вывожу состояние уведомление
+INFO  [17.12.2015 12:38:11]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [17.12.2015 12:38:30]: состояние предупреджение о бездействии с терминала получило данные
+DEBUG [17.12.2015 12:38:30]: предупреджение о бездействии.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@e827853): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:38:30]: isIdleNotified()=false
+INFO  [17.12.2015 12:38:30]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:38:30]: вывожу состояние уведомление
+INFO  [17.12.2015 12:38:30]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 12:40:04]: makeConnection()::Socket[addr=/127.0.0.1,port=56786,localport=6666]
+DEBUG [17.12.2015 12:40:04]: Character mode initialized.
+DEBUG [17.12.2015 12:40:04]: Reported terminal name XTERM
+DEBUG [17.12.2015 12:40:04]: handleNEWENV()
+DEBUG [17.12.2015 12:40:04]: handleNEIs()
+DEBUG [17.12.2015 12:40:04]: readNEVariables()
+DEBUG [17.12.2015 12:40:04]: readNEVariables()::INVALID VARIABLE
+DEBUG [17.12.2015 12:40:05]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [17.12.2015 12:40:05]: connection #4 made.
+DEBUG [17.12.2015 12:40:05]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [17.12.2015 12:40:06]: extracted charsetName=null
+DEBUG [17.12.2015 12:40:06]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [17.12.2015 12:40:06]: вывожу состояние начальное состояние
+INFO  [17.12.2015 12:40:06]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [17.12.2015 12:40:06]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:40:06]: isIdleNotified()=false
+INFO  [17.12.2015 12:40:06]: для сессии присвоили sess=113228
+DEBUG [17.12.2015 12:40:06]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [17.12.2015 12:40:06]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:40:06]: вывожу состояние главное меню
+INFO  [17.12.2015 12:40:06]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [17.12.2015 12:40:08]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:40:08]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@45aa735a): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:40:08]: isIdleNotified()=false
+INFO  [17.12.2015 12:40:08]: сканировано bcd=6483755, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336223~~~
+DEBUG [17.12.2015 12:40:08]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [17.12.2015 12:40:08]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:40:08]: вывожу состояние уведомление
+INFO  [17.12.2015 12:40:08]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 12:46:32]: checkOpenConnections():Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded warning timeout.
+WARN  [17.12.2015 12:46:32]: уведомление: получен сигнал о длительном бездействии
+WARN  [17.12.2015 12:46:32]: setIdleNotified(true)
+WARN  [17.12.2015 12:46:32]: ожидание ввода прервано, предположительно состоянием уведомление
+INFO  [17.12.2015 12:46:32]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:46:32]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@2e2a7e4f): idleNotified=true, disconnectReason=null
+DEBUG [17.12.2015 12:46:32]: isIdleNotified()=true
+DEBUG [17.12.2015 12:46:32]: new state is com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState
+INFO  [17.12.2015 12:46:32]: следующим состоянием стало предупреджение о бездействии
+INFO  [17.12.2015 12:46:32]: вывожу состояние предупреджение о бездействии
+FATAL [17.12.2015 12:46:32]: проблема связи при попытке демонстрации состояния предупреджение о бездействии
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.logic.states.NotifySessionState.show(NotifySessionState.java:34)
+	at com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState.show(IdleTimeExceededState.java:21)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:28)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL [17.12.2015 12:46:32]: закрываю сессию
+ERROR [17.12.2015 12:46:32]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+DEBUG [17.12.2015 12:46:32]: registerClosedConnection()::Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 12:46:32]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [17.12.2015 12:46:32]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 12:46:33]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]
+INFO  [17.12.2015 12:46:46]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:46:46]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@4b6d959f): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:46:46]: isIdleNotified()=false
+INFO  [17.12.2015 12:46:46]: следующим состоянием стало главное меню
+INFO  [17.12.2015 12:46:46]: вывожу состояние главное меню
+INFO  [17.12.2015 12:46:46]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+DEBUG [17.12.2015 12:46:53]: checkOpenConnections():Thread[Connection4,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded warning timeout.
+WARN  [17.12.2015 12:46:53]: уведомление: получен сигнал о длительном бездействии
+WARN  [17.12.2015 12:46:53]: setIdleNotified(true)
+WARN  [17.12.2015 12:46:53]: ожидание ввода прервано, предположительно состоянием уведомление
+INFO  [17.12.2015 12:46:53]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:46:53]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@1c52ddd7): idleNotified=true, disconnectReason=null
+DEBUG [17.12.2015 12:46:53]: isIdleNotified()=true
+DEBUG [17.12.2015 12:46:53]: new state is com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState
+INFO  [17.12.2015 12:46:53]: следующим состоянием стало предупреджение о бездействии
+INFO  [17.12.2015 12:46:53]: вывожу состояние предупреджение о бездействии
+FATAL [17.12.2015 12:46:53]: проблема связи при попытке демонстрации состояния предупреджение о бездействии
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.logic.states.NotifySessionState.show(NotifySessionState.java:34)
+	at com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState.show(IdleTimeExceededState.java:21)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:28)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL [17.12.2015 12:46:53]: закрываю сессию
+ERROR [17.12.2015 12:46:53]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+DEBUG [17.12.2015 12:46:53]: registerClosedConnection()::Thread[Connection4,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 12:46:53]: Closed Thread[Connection4,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [17.12.2015 12:46:53]: run():: Returning from Thread[Connection4,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 12:46:54]: cleanupClosed():: Removing closed connection Thread[Connection4,5,]
+INFO  [17.12.2015 12:48:42]: состояние главное меню с терминала получило данные
+DEBUG [17.12.2015 12:48:42]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@4f52182a): idleNotified=false, disconnectReason=null
+DEBUG [17.12.2015 12:48:42]: isIdleNotified()=false
+INFO  [17.12.2015 12:48:42]: сканировано bcd=6483756, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336223~~~
+DEBUG [17.12.2015 12:48:42]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [17.12.2015 12:48:42]: следующим состоянием стало уведомление
+INFO  [17.12.2015 12:48:42]: вывожу состояние уведомление
+INFO  [17.12.2015 12:48:42]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 12:57:03]: checkOpenConnections():Thread[Connection5,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded warning timeout.
+WARN  [17.12.2015 12:57:03]: уведомление: получен сигнал о длительном бездействии
+WARN  [17.12.2015 12:57:03]: setIdleNotified(true)
+WARN  [17.12.2015 12:57:03]: ожидание ввода прервано, предположительно состоянием уведомление
+INFO  [17.12.2015 12:57:03]: состояние уведомление с терминала получило данные
+DEBUG [17.12.2015 12:57:03]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@1cf60d17): idleNotified=true, disconnectReason=null
+DEBUG [17.12.2015 12:57:03]: isIdleNotified()=true
+DEBUG [17.12.2015 12:57:03]: new state is com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState
+INFO  [17.12.2015 12:57:03]: следующим состоянием стало предупреджение о бездействии
+INFO  [17.12.2015 12:57:03]: вывожу состояние предупреджение о бездействии
+INFO  [17.12.2015 12:57:03]: состояние предупреджение о бездействии успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 13:10:30]: checkOpenConnections():Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded total timeout.
+WARN  [17.12.2015 13:10:30]: предупреджение о бездействии: получен сигнал об отключении: Превышено время бездействия.
+WARN  [17.12.2015 13:10:30]: ожидание ввода прервано, предположительно состоянием предупреджение о бездействии
+INFO  [17.12.2015 13:10:30]: состояние предупреджение о бездействии с терминала получило данные
+DEBUG [17.12.2015 13:10:30]: предупреджение о бездействии.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@4091e2ef): idleNotified=false, disconnectReason=Превышено время бездействия.
+DEBUG [17.12.2015 13:10:30]: isIdleNotified()=false
+DEBUG [17.12.2015 13:10:30]: new state is com.shatura.bc.tmfirst.logic.states.TimeoutExceededState
+INFO  [17.12.2015 13:10:30]: следующим состоянием стало уведомление об отключении
+INFO  [17.12.2015 13:10:30]: вывожу состояние уведомление об отключении
+FATAL [17.12.2015 13:10:30]: проблема связи при попытке демонстрации состояния уведомление об отключении
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.logic.states.NotifySessionState.show(NotifySessionState.java:34)
+	at com.shatura.bc.tmfirst.logic.states.LogoutState.show(LogoutState.java:23)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:28)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL [17.12.2015 13:10:30]: закрываю сессию
+ERROR [17.12.2015 13:10:30]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+DEBUG [17.12.2015 13:10:30]: registerClosedConnection()::Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 13:10:30]: Closed Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [17.12.2015 13:10:30]: run():: Returning from Thread[Connection2,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 13:10:35]: cleanupClosed():: Removing closed connection Thread[Connection2,5,]
+DEBUG [17.12.2015 13:38:43]: checkOpenConnections():Thread[Connection5,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] exceeded total timeout.
+WARN  [17.12.2015 13:38:43]: предупреджение о бездействии: получен сигнал об отключении: Превышено время бездействия.
+WARN  [17.12.2015 13:38:43]: ожидание ввода прервано, предположительно состоянием предупреджение о бездействии
+INFO  [17.12.2015 13:38:43]: состояние предупреджение о бездействии с терминала получило данные
+DEBUG [17.12.2015 13:38:43]: предупреджение о бездействии.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@645c7e7b): idleNotified=false, disconnectReason=Превышено время бездействия.
+DEBUG [17.12.2015 13:38:43]: isIdleNotified()=false
+DEBUG [17.12.2015 13:38:43]: new state is com.shatura.bc.tmfirst.logic.states.TimeoutExceededState
+INFO  [17.12.2015 13:38:43]: следующим состоянием стало уведомление об отключении
+INFO  [17.12.2015 13:38:43]: вывожу состояние уведомление об отключении
+INFO  [17.12.2015 13:38:43]: состояние уведомление об отключении успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [17.12.2015 13:38:47]: registerClosedConnection()::Thread[Connection5,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [17.12.2015 13:38:47]: Closed Thread[Connection5,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+FATAL [17.12.2015 13:38:47]: проблема связи при ожидании ввода данных в состоянии уведомление об отключении
+java.io.IOException: Stream closed.
+	at java.net.AbstractPlainSocketImpl.available(AbstractPlainSocketImpl.java:470)
+	at java.net.SocketInputStream.available(SocketInputStream.java:258)
+	at java.io.FilterInputStream.available(FilterInputStream.java:168)
+	at net.wimpi.telnetd.io.TelnetIO.readAvailable(TelnetIO.java:448)
+	at net.wimpi.telnetd.io.TerminalIO.readAvailable(TerminalIO.java:175)
+	at com.shatura.bc.tmfirst.TerminalSession.queryUser(TerminalSession.java:419)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:55)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL [17.12.2015 13:38:47]: закрываю сессию
+DEBUG [17.12.2015 13:38:47]: run():: Returning from Thread[Connection5,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [17.12.2015 13:38:48]: cleanupClosed():: Removing closed connection Thread[Connection5,5,]
+DEBUG [18.12.2015 11:59:54]: createShellManager()
+DEBUG [18.12.2015 11:59:54]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [18.12.2015 11:59:54]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [18.12.2015 11:59:54]: Creating terminal manager.....
+DEBUG [18.12.2015 11:59:54]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [18.12.2015 11:59:54]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [18.12.2015 11:59:54]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [18.12.2015 11:59:54]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [18.12.2015 11:59:54]: Terminals:
+DEBUG [18.12.2015 11:59:54]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 11:59:54]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 11:59:54]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 11:59:54]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 11:59:54]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 11:59:54]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 11:59:54]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 11:59:54]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 11:59:54]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [18.12.2015 11:59:54]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 11:59:54]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 11:59:54]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [18.12.2015 11:59:54]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 11:59:54]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 11:59:54]: start()
+DEBUG [18.12.2015 11:59:54]: start()
+INFO  [18.12.2015 11:59:54]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [18.12.2015 11:59:54]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@3d8ee54b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@344a0bd6 for database named wrk, named=SingleConn, seq=1) completed
+INFO  [18.12.2015 11:59:54]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [18.12.2015 11:59:54]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [18.12.2015 12:00:06]: makeConnection()::Socket[addr=/127.0.0.1,port=63875,localport=6666]
+DEBUG [18.12.2015 12:00:06]: Character mode initialized.
+DEBUG [18.12.2015 12:00:06]: Reported terminal name XTERM
+DEBUG [18.12.2015 12:00:06]: handleNEWENV()
+DEBUG [18.12.2015 12:00:06]: handleNEIs()
+DEBUG [18.12.2015 12:00:06]: readNEVariables()
+DEBUG [18.12.2015 12:00:06]: readNEVariables()::INVALID VARIABLE
+DEBUG [18.12.2015 12:00:07]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [18.12.2015 12:00:07]: connection #1 made.
+DEBUG [18.12.2015 12:00:07]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [18.12.2015 12:00:08]: extracted charsetName=null
+DEBUG [18.12.2015 12:00:08]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [18.12.2015 12:00:08]: вывожу состояние начальное состояние
+INFO  [18.12.2015 12:00:08]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [18.12.2015 12:00:08]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:00:08]: isIdleNotified()=false
+INFO  [18.12.2015 12:00:09]: для сессии присвоили sess=113229
+DEBUG [18.12.2015 12:00:09]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [18.12.2015 12:00:09]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:00:09]: вывожу состояние главное меню
+INFO  [18.12.2015 12:00:09]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:00:29]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:00:29]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@31ae8dd5): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:00:29]: isIdleNotified()=false
+INFO  [18.12.2015 12:00:29]: сканировано bcd=6483757, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336223~~~
+DEBUG [18.12.2015 12:00:29]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:00:29]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:00:29]: вывожу состояние уведомление
+INFO  [18.12.2015 12:00:29]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:00:39]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:00:39]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@4c6b92e1): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:00:39]: isIdleNotified()=false
+INFO  [18.12.2015 12:00:39]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:00:39]: вывожу состояние главное меню
+INFO  [18.12.2015 12:00:39]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:00:40]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:00:40]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@69352472): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:00:40]: isIdleNotified()=false
+INFO  [18.12.2015 12:00:40]: bcd пустой
+INFO  [18.12.2015 12:00:40]: для сессии присвоили PersonData=null
+DEBUG [18.12.2015 12:00:40]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [18.12.2015 12:00:40]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [18.12.2015 12:00:40]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [18.12.2015 12:00:40]: следующим состоянием стало вопрос
+INFO  [18.12.2015 12:00:40]: вывожу состояние вопрос
+INFO  [18.12.2015 12:00:40]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [18.12.2015 12:00:41]: состояние вопрос с терминала получило данные
+DEBUG [18.12.2015 12:00:41]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@2cb0cca4): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:00:41]: isIdleNotified()=false
+INFO  [18.12.2015 12:00:41]: следующим состоянием стало вопрос
+INFO  [18.12.2015 12:00:41]: вывожу состояние вопрос
+INFO  [18.12.2015 12:00:41]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [18.12.2015 12:00:41]: состояние вопрос с терминала получило данные
+DEBUG [18.12.2015 12:00:41]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@3bc87933): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:00:41]: isIdleNotified()=false
+INFO  [18.12.2015 12:00:41]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:00:41]: вывожу состояние уведомление
+INFO  [18.12.2015 12:00:41]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:00:42]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:00:42]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@2b240831): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:00:42]: isIdleNotified()=false
+INFO  [18.12.2015 12:00:42]: следующим состоянием стало никакое
+INFO  [18.12.2015 12:00:42]: процессор закончил работу
+DEBUG [18.12.2015 12:00:42]: registerClosedConnection()::Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [18.12.2015 12:00:42]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [18.12.2015 12:00:42]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [18.12.2015 12:00:43]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]
+DEBUG [18.12.2015 12:26:06]: createShellManager()
+DEBUG [18.12.2015 12:26:06]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [18.12.2015 12:26:06]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [18.12.2015 12:26:06]: Creating terminal manager.....
+DEBUG [18.12.2015 12:26:06]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [18.12.2015 12:26:06]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [18.12.2015 12:26:06]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [18.12.2015 12:26:06]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [18.12.2015 12:26:06]: Terminals:
+DEBUG [18.12.2015 12:26:06]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:26:06]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:26:06]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:26:06]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:26:06]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:26:06]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:26:06]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:26:06]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:26:06]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [18.12.2015 12:26:06]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:26:06]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:26:06]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [18.12.2015 12:26:06]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:26:06]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:26:06]: start()
+DEBUG [18.12.2015 12:26:06]: start()
+INFO  [18.12.2015 12:26:06]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [18.12.2015 12:26:06]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@599909b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@314996eb for database named wrk, named=SingleConn, seq=1) completed
+INFO  [18.12.2015 12:26:06]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [18.12.2015 12:26:06]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [18.12.2015 12:26:15]: makeConnection()::Socket[addr=/127.0.0.1,port=63937,localport=6666]
+DEBUG [18.12.2015 12:26:15]: Character mode initialized.
+DEBUG [18.12.2015 12:26:15]: Reported terminal name XTERM
+DEBUG [18.12.2015 12:26:15]: handleNEWENV()
+DEBUG [18.12.2015 12:26:15]: handleNEIs()
+DEBUG [18.12.2015 12:26:15]: readNEVariables()
+DEBUG [18.12.2015 12:26:15]: readNEVariables()::INVALID VARIABLE
+DEBUG [18.12.2015 12:26:16]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [18.12.2015 12:26:16]: connection #1 made.
+DEBUG [18.12.2015 12:26:16]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [18.12.2015 12:26:17]: extracted charsetName=null
+DEBUG [18.12.2015 12:26:17]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [18.12.2015 12:26:17]: вывожу состояние начальное состояние
+INFO  [18.12.2015 12:26:17]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [18.12.2015 12:26:17]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:26:17]: isIdleNotified()=false
+INFO  [18.12.2015 12:26:18]: для сессии присвоили sess=113230
+DEBUG [18.12.2015 12:26:18]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [18.12.2015 12:26:18]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:26:18]: вывожу состояние главное меню
+INFO  [18.12.2015 12:26:18]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:26:30]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:26:30]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5eeb8bca): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:26:30]: isIdleNotified()=false
+INFO  [18.12.2015 12:26:30]: сканировано bcd=6483758, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336223~~~
+DEBUG [18.12.2015 12:26:30]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:26:30]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:26:30]: вывожу состояние уведомление
+INFO  [18.12.2015 12:26:30]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:26:53]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:26:53]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@3d9efd05): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:26:53]: isIdleNotified()=false
+INFO  [18.12.2015 12:26:53]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:26:53]: вывожу состояние главное меню
+INFO  [18.12.2015 12:26:53]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:26:56]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:26:56]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@335d26c3): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:26:56]: isIdleNotified()=false
+INFO  [18.12.2015 12:26:56]: сканировано bcd=6483759, ingred=SE5.12-О 0 0 0.00 027 (114822), tim=null, dprt=Бюро координации производства_old (401), uniqComp=50873603~~~
+DEBUG [18.12.2015 12:26:56]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:26:56]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:26:56]: вывожу состояние уведомление
+INFO  [18.12.2015 12:26:56]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:27:23]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:27:23]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@31ea5eb9): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:27:23]: isIdleNotified()=false
+INFO  [18.12.2015 12:27:23]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:27:23]: вывожу состояние главное меню
+INFO  [18.12.2015 12:27:23]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:27:24]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:27:24]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@7406048c): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:27:24]: isIdleNotified()=false
+INFO  [18.12.2015 12:27:24]: сканировано bcd=6483760, ingred=A73.16-О 0 0 0.00 000 (333), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336224~~~
+DEBUG [18.12.2015 12:27:24]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:27:24]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:27:24]: вывожу состояние уведомление
+INFO  [18.12.2015 12:27:24]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:27:37]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:27:37]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@3ebaa9dc): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:27:37]: isIdleNotified()=false
+INFO  [18.12.2015 12:27:37]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:27:37]: вывожу состояние главное меню
+INFO  [18.12.2015 12:27:37]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:27:38]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:27:38]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@648bebf6): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:27:38]: isIdleNotified()=false
+INFO  [18.12.2015 12:27:38]: bcd пустой
+INFO  [18.12.2015 12:27:38]: для сессии присвоили PersonData=null
+DEBUG [18.12.2015 12:27:38]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [18.12.2015 12:27:38]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [18.12.2015 12:27:38]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [18.12.2015 12:27:38]: следующим состоянием стало вопрос
+INFO  [18.12.2015 12:27:38]: вывожу состояние вопрос
+INFO  [18.12.2015 12:27:38]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [18.12.2015 12:27:39]: состояние вопрос с терминала получило данные
+DEBUG [18.12.2015 12:27:39]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@7777e48): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:27:39]: isIdleNotified()=false
+INFO  [18.12.2015 12:27:39]: следующим состоянием стало вопрос
+INFO  [18.12.2015 12:27:39]: вывожу состояние вопрос
+INFO  [18.12.2015 12:27:39]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [18.12.2015 12:27:39]: состояние вопрос с терминала получило данные
+DEBUG [18.12.2015 12:27:39]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@4311384e): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:27:39]: isIdleNotified()=false
+INFO  [18.12.2015 12:27:39]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:27:39]: вывожу состояние уведомление
+INFO  [18.12.2015 12:27:39]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:27:41]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:27:41]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@288e8db9): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:27:41]: isIdleNotified()=false
+INFO  [18.12.2015 12:27:41]: следующим состоянием стало никакое
+INFO  [18.12.2015 12:27:41]: процессор закончил работу
+DEBUG [18.12.2015 12:27:41]: registerClosedConnection()::Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [18.12.2015 12:27:41]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [18.12.2015 12:27:41]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [18.12.2015 12:27:42]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]
+DEBUG [18.12.2015 12:29:33]: createShellManager()
+DEBUG [18.12.2015 12:29:33]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [18.12.2015 12:29:33]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [18.12.2015 12:29:33]: Creating terminal manager.....
+DEBUG [18.12.2015 12:29:33]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [18.12.2015 12:29:33]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [18.12.2015 12:29:33]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [18.12.2015 12:29:33]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [18.12.2015 12:29:33]: Terminals:
+DEBUG [18.12.2015 12:29:33]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:29:33]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:29:33]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:29:33]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:29:33]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:29:33]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:29:33]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:29:33]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:29:33]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [18.12.2015 12:29:33]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:29:33]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:29:33]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [18.12.2015 12:29:33]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:29:33]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:29:33]: start()
+DEBUG [18.12.2015 12:29:33]: start()
+INFO  [18.12.2015 12:29:33]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [18.12.2015 12:29:33]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@12d3d764, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@23abcca4 for database named wrk, named=SingleConn, seq=1) completed
+INFO  [18.12.2015 12:29:33]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [18.12.2015 12:29:33]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [18.12.2015 12:29:57]: makeConnection()::Socket[addr=/127.0.0.1,port=63942,localport=6666]
+DEBUG [18.12.2015 12:29:57]: Character mode initialized.
+DEBUG [18.12.2015 12:29:57]: Reported terminal name XTERM
+DEBUG [18.12.2015 12:29:57]: handleNEWENV()
+DEBUG [18.12.2015 12:29:57]: handleNEIs()
+DEBUG [18.12.2015 12:29:57]: readNEVariables()
+DEBUG [18.12.2015 12:29:57]: readNEVariables()::INVALID VARIABLE
+DEBUG [18.12.2015 12:29:58]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [18.12.2015 12:29:58]: connection #1 made.
+DEBUG [18.12.2015 12:29:58]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [18.12.2015 12:29:58]: extracted charsetName=null
+DEBUG [18.12.2015 12:29:59]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [18.12.2015 12:29:59]: вывожу состояние начальное состояние
+INFO  [18.12.2015 12:29:59]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [18.12.2015 12:29:59]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:29:59]: isIdleNotified()=false
+INFO  [18.12.2015 12:30:00]: для сессии присвоили sess=113231
+DEBUG [18.12.2015 12:30:00]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [18.12.2015 12:30:00]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:30:00]: вывожу состояние главное меню
+INFO  [18.12.2015 12:30:00]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:30:01]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:30:01]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5eeb8bca): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:30:01]: isIdleNotified()=false
+INFO  [18.12.2015 12:30:01]: сканировано bcd=6483761, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336225~~~
+INFO  [18.12.2015 12:30:02]: notifyConnectionClosed(com.shatura.bc.tmfirst.env.Environment@12d3d764, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@23abcca4 for database named wrk, named=SingleConn, seq=1) completed
+WARN  [18.12.2015 12:30:02]: в процессе обработки данных=com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5eeb8bca состоянием главное меню случилась ошибка
+com.shatura.bc.tmfirst.logic.DBOpers$DBSQLProblem: ORA-00942: table or view does not exist
+
+	at com.shatura.bc.tmfirst.logic.DBOpers.getIngredOnStockInfo(DBOpers.java:103)
+	at com.shatura.bc.tmfirst.logic.acts.ProcessScannedCodeAction4MainMenu.processValidStockLabelData(ProcessScannedCodeAction4MainMenu.java:54)
+	at com.shatura.bc.tmfirst.logic.acts.ProcessScannedCodeAbstractAction.perform(ProcessScannedCodeAbstractAction.java:83)
+	at com.shatura.bc.tmfirst.logic.states.MainMenuSessionState.doActionByData(MainMenuSessionState.java:53)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+Caused by: java.sql.SQLException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:743)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:799)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1037)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:839)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1132)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3316)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3422)
+	at ru.sns.db.Utils.lvSQLExecute(Utils.java:25)
+	at com.shatura.bc.tmfirst.data.db.factories.DataFactory.getSP4IngrStock(DataFactory.java:662)
+	at com.shatura.bc.tmfirst.data.db.factories.DataFactory.getIngredOnStockInfo(DataFactory.java:714)
+	at com.shatura.bc.tmfirst.data.db.DataCache.getIngredOnStockInfo(DataCache.java:54)
+	at com.shatura.bc.tmfirst.logic.DBOpers.getIngredOnStockInfo(DBOpers.java:101)
+	... 7 more
+DEBUG [18.12.2015 12:30:02]: new state is com.shatura.bc.tmfirst.logic.states.ErrorTerminalSessionState
+INFO  [18.12.2015 12:30:02]: следующим состоянием стало уведомление об ошибке
+INFO  [18.12.2015 12:30:02]: вывожу состояние уведомление об ошибке
+INFO  [18.12.2015 12:30:02]: состояние уведомление об ошибке успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:32:26]: состояние уведомление об ошибке с терминала получило данные
+DEBUG [18.12.2015 12:32:26]: уведомление об ошибке.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@6d6e8491): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:32:26]: isIdleNotified()=false
+INFO  [18.12.2015 12:32:26]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:32:26]: вывожу состояние главное меню
+INFO  [18.12.2015 12:32:26]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:32:40]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:32:40]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@56674fc8): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:32:40]: isIdleNotified()=false
+INFO  [18.12.2015 12:32:40]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@12d3d764, 2 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@23abcca4 for database named wrk, named=SingleConn, seq=2) completed
+INFO  [18.12.2015 12:32:40]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [18.12.2015 12:32:41]: сканировано bcd=6483762, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336225~~~
+DEBUG [18.12.2015 12:32:41]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:32:41]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:32:41]: вывожу состояние уведомление
+INFO  [18.12.2015 12:32:41]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:33:07]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:33:07]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@733e4fd5): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:33:07]: isIdleNotified()=false
+INFO  [18.12.2015 12:33:07]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:33:07]: вывожу состояние главное меню
+INFO  [18.12.2015 12:33:07]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:33:08]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:33:08]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@6aed072f): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:33:08]: isIdleNotified()=false
+INFO  [18.12.2015 12:33:08]: сканировано bcd=6483763, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336226~~~
+DEBUG [18.12.2015 12:33:08]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:33:08]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:33:08]: вывожу состояние уведомление
+INFO  [18.12.2015 12:33:08]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+DEBUG [18.12.2015 12:36:02]: createShellManager()
+DEBUG [18.12.2015 12:36:02]: Preparing Shell [dummy] com.shatura.bc.tmfirst.TerminalSession
+DEBUG [18.12.2015 12:36:02]: Class [com.shatura.bc.tmfirst.TerminalSession] loaded and class object cached.
+DEBUG [18.12.2015 12:36:02]: Creating terminal manager.....
+DEBUG [18.12.2015 12:36:02]: Preparing terminal [vt100] net.wimpi.telnetd.io.terminal.vt100
+DEBUG [18.12.2015 12:36:02]: Preparing terminal [ansi] net.wimpi.telnetd.io.terminal.ansi
+DEBUG [18.12.2015 12:36:02]: Preparing terminal [windoof] net.wimpi.telnetd.io.terminal.Windoof
+DEBUG [18.12.2015 12:36:02]: Preparing terminal [xterm] net.wimpi.telnetd.io.terminal.xterm
+DEBUG [18.12.2015 12:36:02]: Terminals:
+DEBUG [18.12.2015 12:36:02]: vt102=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:36:02]: xterm-color=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:36:02]: vt220=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:36:02]: vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:36:02]: vt320=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:36:02]: screen=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:36:02]: ansi=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:36:02]: dec-vt100=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:36:02]: windoof=net.wimpi.telnetd.io.terminal.Windoof@c2e1f26
+DEBUG [18.12.2015 12:36:02]: default=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:36:02]: vt100-am=net.wimpi.telnetd.io.terminal.vt100@7fbe847c
+DEBUG [18.12.2015 12:36:02]: xterm=net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+DEBUG [18.12.2015 12:36:02]: color-xterm=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:36:02]: linux=net.wimpi.telnetd.io.terminal.ansi@41975e01
+DEBUG [18.12.2015 12:36:02]: start()
+DEBUG [18.12.2015 12:36:02]: start()
+INFO  [18.12.2015 12:36:02]: Listening to Port 6 666 with a connectivity queue size of 5.
+INFO  [18.12.2015 12:36:02]: notifyConnectionOpened(com.shatura.bc.tmfirst.env.Environment@599909b, 1 from connection factory ru.sns.db.defined.apps.DatabaseApplEnv$DAEConnFactory@314996eb for database named wrk, named=SingleConn, seq=1) completed
+INFO  [18.12.2015 12:36:02]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+INFO  [18.12.2015 12:36:02]: PreloadIngrCacheLimit = 0: кеш ТМЦ не грузим!
+DEBUG [18.12.2015 12:36:10]: makeConnection()::Socket[addr=/127.0.0.1,port=63956,localport=6666]
+DEBUG [18.12.2015 12:36:10]: Character mode initialized.
+DEBUG [18.12.2015 12:36:10]: Reported terminal name XTERM
+DEBUG [18.12.2015 12:36:10]: handleNEWENV()
+DEBUG [18.12.2015 12:36:10]: handleNEIs()
+DEBUG [18.12.2015 12:36:10]: readNEVariables()
+DEBUG [18.12.2015 12:36:10]: readNEVariables()::INVALID VARIABLE
+DEBUG [18.12.2015 12:36:11]: Set terminal to net.wimpi.telnetd.io.terminal.xterm@dcf3e99
+INFO  [18.12.2015 12:36:11]: connection #1 made.
+DEBUG [18.12.2015 12:36:11]: [Factory Method] public static net.wimpi.telnetd.shell.Shell com.shatura.bc.tmfirst.TerminalSession.createShell()
+INFO  [18.12.2015 12:36:12]: extracted charsetName=null
+DEBUG [18.12.2015 12:36:12]: new state is com.shatura.bc.tmfirst.logic.states.InitialTerminalSessionState
+INFO  [18.12.2015 12:36:12]: вывожу состояние начальное состояние
+INFO  [18.12.2015 12:36:12]: состояние начальное состояние успешно показано и оно ничего не запрашивает - транзитное...
+DEBUG [18.12.2015 12:36:12]: начальное состояние.processData(null): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:12]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:13]: для сессии присвоили sess=113232
+DEBUG [18.12.2015 12:36:13]: new state is com.shatura.bc.tmfirst.logic.states.MainMenuSessionState
+INFO  [18.12.2015 12:36:13]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:36:13]: вывожу состояние главное меню
+INFO  [18.12.2015 12:36:13]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:36:24]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:36:24]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5eeb8bca): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:24]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:24]: сканировано bcd=6483764, ingred=A23.17-О 0 0 0.F2 L01 (760710), tim=null, dprt=Бюро координации производства_old (401), uniqComp=52336226~~~
+DEBUG [18.12.2015 12:36:24]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:36:24]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:36:24]: вывожу состояние уведомление
+INFO  [18.12.2015 12:36:24]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:36:30]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:36:30]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@3d9efd05): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:30]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:30]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:36:30]: вывожу состояние главное меню
+INFO  [18.12.2015 12:36:30]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:36:41]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:36:41]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@335d26c3): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:41]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:41]: сканировано bcd=6483765, ingred=SE5.12-О 0 0 0.00 027 (114822), tim=null, dprt=Бюро координации производства_old (401), uniqComp=50873603~~~
+DEBUG [18.12.2015 12:36:41]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+INFO  [18.12.2015 12:36:41]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:36:41]: вывожу состояние уведомление
+INFO  [18.12.2015 12:36:41]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:36:46]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:36:46]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@31ea5eb9): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:46]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:46]: следующим состоянием стало главное меню
+INFO  [18.12.2015 12:36:46]: вывожу состояние главное меню
+INFO  [18.12.2015 12:36:46]: состояние главное меню успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$BarCode
+INFO  [18.12.2015 12:36:47]: состояние главное меню с терминала получило данные
+DEBUG [18.12.2015 12:36:47]: главное меню.processData(com.shatura.bc.tmfirst.logic.UserQuery$BarCode@7406048c): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:47]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:47]: bcd пустой
+INFO  [18.12.2015 12:36:47]: для сессии присвоили PersonData=null
+DEBUG [18.12.2015 12:36:47]: new state is com.shatura.bc.tmfirst.logic.states.ShowMessageNotifySessionState
+DEBUG [18.12.2015 12:36:47]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+DEBUG [18.12.2015 12:36:47]: new state is com.shatura.bc.tmfirst.logic.states.YesNoSessionState
+INFO  [18.12.2015 12:36:47]: следующим состоянием стало вопрос
+INFO  [18.12.2015 12:36:47]: вывожу состояние вопрос
+INFO  [18.12.2015 12:36:47]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [18.12.2015 12:36:49]: состояние вопрос с терминала получило данные
+DEBUG [18.12.2015 12:36:49]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@3ebaa9dc): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:49]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:49]: следующим состоянием стало вопрос
+INFO  [18.12.2015 12:36:49]: вывожу состояние вопрос
+INFO  [18.12.2015 12:36:49]: состояние вопрос успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo
+INFO  [18.12.2015 12:36:53]: состояние вопрос с терминала получило данные
+DEBUG [18.12.2015 12:36:53]: вопрос.processData(com.shatura.bc.tmfirst.logic.UserQuery$YesOrNo@648bebf6): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:53]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:53]: следующим состоянием стало уведомление
+INFO  [18.12.2015 12:36:53]: вывожу состояние уведомление
+INFO  [18.12.2015 12:36:53]: состояние уведомление успешно показано и оно запрашивает данные так com.shatura.bc.tmfirst.logic.UserQuery$EscKey
+INFO  [18.12.2015 12:36:54]: состояние уведомление с терминала получило данные
+DEBUG [18.12.2015 12:36:54]: уведомление.processData(com.shatura.bc.tmfirst.logic.UserQuery$EscKey@7777e48): idleNotified=false, disconnectReason=null
+DEBUG [18.12.2015 12:36:54]: isIdleNotified()=false
+INFO  [18.12.2015 12:36:54]: следующим состоянием стало никакое
+INFO  [18.12.2015 12:36:54]: процессор закончил работу
+DEBUG [18.12.2015 12:36:54]: registerClosedConnection()::Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+DEBUG [18.12.2015 12:36:54]: Closed Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections] and inactive.
+DEBUG [18.12.2015 12:36:54]: run():: Returning from Thread[Connection1,5,net.wimpi.telnetd.net.ConnectionManager@3d012dddConnections]
+INFO  [18.12.2015 12:36:55]: cleanupClosed():: Removing closed connection Thread[Connection1,5,]

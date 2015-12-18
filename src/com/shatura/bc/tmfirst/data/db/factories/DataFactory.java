@@ -649,6 +649,35 @@ public class DataFactory extends K3Factory {
     return ret;
   }
 
+  private static final String GET_SP_4_INGR_STOCK_PS_DEF_VAL =
+    "select '[СП]'\n" +
+      "from STP_INGREDS4STOCK a\n" +
+      "where a.Ingred_ID = :1 and a.Stock_ID = :2 and rownum = 1";
+  private final static String GET_SP_4_INGR_STOCK_PS_DESC =
+    "Относится ли изделие к 'складской программе' для опр.ТМЦ на опр.сладе";
+
+  private String getSP4IngrStock(final int stockID, final int ingredID) throws SQLException {
+    //final SortedSet<String> ret = new TreeSet<String>();
+    final String[] ret = {""};
+    Utils.lvSQLExecute(
+      new PredefinedLVSQLExecutor() {
+        public String getPreparedStatementName() { return "GET_SP_4_INGR_STOCK_PS"; }
+        public String getPreparedStatementDesc() { return GET_SP_4_INGR_STOCK_PS_DESC; }
+        public PreparedStatement prepareStatement() throws SQLException {
+          PreparedStatement ps = super.prepareStatement();
+          ps.setInt(1, ingredID);
+          ps.setInt(2, stockID);
+          return ps;
+        }
+        public boolean processResultSet(ResultSet rs) throws SQLException {
+          ret[0] = rs.getString(1);
+          return true;
+        }
+      }
+    );
+    return ret[0];
+  }
+
   private static final String GET_INGRS_4_CELL_STOCK_PS_DEF_VAL =
     "select a.ingred_id\n" +
       "from WMS_AST_CELL_INGREDS a\n" +
@@ -681,7 +710,8 @@ public class DataFactory extends K3Factory {
     return new LoadedIngredOnStockInfo(
       getRestsInfo(stockID, ingredID, timID),
       getCells4IngrStock(stockID, ingredID),
-      getTasksInfo4IngrStock(stockID, ingredID, timID)
+      getTasksInfo4IngrStock(stockID, ingredID, timID),
+      getSP4IngrStock(stockID, ingredID)
     );
   }
 
@@ -689,24 +719,28 @@ public class DataFactory extends K3Factory {
 
     private final SortedSet<RestsInfoRecord> rests;
     private final SortedSet<String> cells;
-
+    private final String SP;
     private SortedMap<StockTask.ID, SortedMap<DictObjStoreTypePair, Number>> actTasksUsages;
 
     private LoadedIngredOnStockInfo(
       SortedSet<RestsInfoRecord> rests,
       SortedSet<String> cells,
-      SortedMap<StockTask.ID, SortedMap<DictObjStoreTypePair, Number>> actTasksUsages
+      SortedMap<StockTask.ID, SortedMap<DictObjStoreTypePair, Number>> actTasksUsages,
+      String SP
     ) {
       this.rests = rests;
       this.cells = cells;
       this.actTasksUsages = actTasksUsages;
+      this.SP = SP;
     }
     
     public SortedSet<RestsInfoRecord> getRests() { return rests; }
     
     public SortedSet<String> getCells() { return cells; }
 
-    public SortedMap<StockTask.ID, SortedMap<DictObjStoreTypePair, Number>> getActTasksUsages() { return actTasksUsages; } 
+    public SortedMap<StockTask.ID, SortedMap<DictObjStoreTypePair, Number>> getActTasksUsages() { return actTasksUsages; }
+
+    public String getSP() {return SP; }
 
   }
 

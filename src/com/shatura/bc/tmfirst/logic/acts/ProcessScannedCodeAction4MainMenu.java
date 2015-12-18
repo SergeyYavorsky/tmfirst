@@ -67,10 +67,11 @@ public class ProcessScannedCodeAction4MainMenu extends ProcessScannedCodeAbstrac
     }
 
     StringBuilder sb = new StringBuilder();
+    String SP = "";
     if ( stock == null ) {
       sb.append("нет склада");
     } else {
-
+      SP = iosi.getSP();
       if ( iosi.getRests().size() == 0 ) {
         sb.append("остатков нет\n");
       } else {
@@ -109,8 +110,6 @@ public class ProcessScannedCodeAction4MainMenu extends ProcessScannedCodeAbstrac
         //int i = 0;
         for ( String cell : iosi.getCells() ) {
           sb.append(cell).append('\n');
-          //if ( i++ == 8 ) break;
-          //System.out.println(cell);
         }
       }
 
@@ -125,7 +124,7 @@ public class ProcessScannedCodeAction4MainMenu extends ProcessScannedCodeAbstrac
         sld.getIngredient().getID() != trI.getID() ?
           " <" + trI.getID() + ">" + trI.getName() : ""
       )*/
-      "<" + trI.getID() + ">" + trI.getName()  + timStr + "\n" + sb,
+      "<" + trI.getID() + ">" + trI.getName() + SP + timStr + "\n" + sb,
       false
     );
   }

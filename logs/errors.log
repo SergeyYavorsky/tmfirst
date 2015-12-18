@@ -151,3 +151,242 @@ Caused by: java.sql.SQLException: Io exception: The Network Adapter could not es
 	at ru.sns.db.CustConnFactory.getConnection(CustConnFactory.java:101)
 	at ru.sns.db.defined.PredefinedConnFactory.open(PredefinedConnFactory.java:352)
 	... 10 more
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyIdle(AbstractTerminalSessionState.java:71) - [17.12.2015 12:20:03]: главное меню: получен сигнал о длительном бездействии
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.setIdleNotified(AbstractTerminalSessionState.java:61) - [17.12.2015 12:20:03]: setIdleNotified(true)
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 12:20:03]: ожидание ввода прервано, предположительно состоянием главное меню
+ERROR com.shatura.bc.tmfirst.TerminalSession.disconnect(TerminalSession.java:444) - [17.12.2015 12:25:56]: disconnect(проблема в основном цикле ожидания ввода null)
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.TerminalSession.showMessage(TerminalSession.java:427)
+	at com.shatura.bc.tmfirst.TerminalSession.disconnect(TerminalSession.java:441)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:316)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+ERROR com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:317) - [17.12.2015 12:25:56]: run()
+java.io.EOFException
+	at java.io.DataInputStream.readUnsignedByte(DataInputStream.java:290)
+	at net.wimpi.telnetd.io.TelnetIO.readUnsignedByteBySNS(TelnetIO.java:432)
+	at net.wimpi.telnetd.io.TelnetIO.rawread(TelnetIO.java:468)
+	at net.wimpi.telnetd.io.TelnetIO.read(TelnetIO.java:329)
+	at net.wimpi.telnetd.io.TerminalIO.read(TerminalIO.java:150)
+	at net.wimpi.telnetd.io.toolkit.Editfield.run(Editfield.java:269)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:291)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+ERROR net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:302) - [17.12.2015 12:25:56]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyIdle(AbstractTerminalSessionState.java:71) - [17.12.2015 12:28:50]: главное меню: получен сигнал о длительном бездействии
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.setIdleNotified(AbstractTerminalSessionState.java:61) - [17.12.2015 12:28:50]: setIdleNotified(true)
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 12:28:50]: ожидание ввода прервано, предположительно состоянием главное меню
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyIdle(AbstractTerminalSessionState.java:71) - [17.12.2015 12:34:42]: уведомление: получен сигнал о длительном бездействии
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.setIdleNotified(AbstractTerminalSessionState.java:61) - [17.12.2015 12:34:42]: setIdleNotified(true)
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 12:34:42]: ожидание ввода прервано, предположительно состоянием уведомление
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyIdle(AbstractTerminalSessionState.java:71) - [17.12.2015 12:35:15]: уведомление: получен сигнал о длительном бездействии
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.setIdleNotified(AbstractTerminalSessionState.java:61) - [17.12.2015 12:35:15]: setIdleNotified(true)
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 12:35:15]: ожидание ввода прервано, предположительно состоянием уведомление
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyIdle(AbstractTerminalSessionState.java:71) - [17.12.2015 12:46:32]: уведомление: получен сигнал о длительном бездействии
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.setIdleNotified(AbstractTerminalSessionState.java:61) - [17.12.2015 12:46:32]: setIdleNotified(true)
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 12:46:32]: ожидание ввода прервано, предположительно состоянием уведомление
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:30) - [17.12.2015 12:46:32]: проблема связи при попытке демонстрации состояния предупреджение о бездействии
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.logic.states.NotifySessionState.show(NotifySessionState.java:34)
+	at com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState.show(IdleTimeExceededState.java:21)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:28)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:31) - [17.12.2015 12:46:32]: закрываю сессию
+ERROR net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:302) - [17.12.2015 12:46:32]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyIdle(AbstractTerminalSessionState.java:71) - [17.12.2015 12:46:53]: уведомление: получен сигнал о длительном бездействии
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.setIdleNotified(AbstractTerminalSessionState.java:61) - [17.12.2015 12:46:53]: setIdleNotified(true)
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 12:46:53]: ожидание ввода прервано, предположительно состоянием уведомление
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:30) - [17.12.2015 12:46:53]: проблема связи при попытке демонстрации состояния предупреджение о бездействии
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.logic.states.NotifySessionState.show(NotifySessionState.java:34)
+	at com.shatura.bc.tmfirst.logic.states.IdleTimeExceededState.show(IdleTimeExceededState.java:21)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:28)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:31) - [17.12.2015 12:46:53]: закрываю сессию
+ERROR net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:302) - [17.12.2015 12:46:53]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyIdle(AbstractTerminalSessionState.java:71) - [17.12.2015 12:57:03]: уведомление: получен сигнал о длительном бездействии
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.setIdleNotified(AbstractTerminalSessionState.java:61) - [17.12.2015 12:57:03]: setIdleNotified(true)
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 12:57:03]: ожидание ввода прервано, предположительно состоянием уведомление
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyDisconected(AbstractTerminalSessionState.java:77) - [17.12.2015 13:10:30]: предупреджение о бездействии: получен сигнал об отключении: Превышено время бездействия.
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 13:10:30]: ожидание ввода прервано, предположительно состоянием предупреджение о бездействии
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:30) - [17.12.2015 13:10:30]: проблема связи при попытке демонстрации состояния уведомление об отключении
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at net.wimpi.telnetd.io.TelnetIO.flush(TelnetIO.java:278)
+	at net.wimpi.telnetd.io.TerminalIO.flush(TerminalIO.java:498)
+	at net.wimpi.telnetd.io.TerminalIO.bell(TerminalIO.java:332)
+	at com.shatura.bc.tmfirst.TerminalSession.bell(TerminalSession.java:100)
+	at com.shatura.bc.tmfirst.TerminalSession.errorBell(TerminalSession.java:113)
+	at com.shatura.bc.tmfirst.logic.states.NotifySessionState.show(NotifySessionState.java:34)
+	at com.shatura.bc.tmfirst.logic.states.LogoutState.show(LogoutState.java:23)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:28)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:31) - [17.12.2015 13:10:30]: закрываю сессию
+ERROR net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:302) - [17.12.2015 13:10:30]: closeOutput()
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at net.wimpi.telnetd.io.TelnetIO.closeOutput(TelnetIO.java:300)
+	at net.wimpi.telnetd.io.TerminalIO.close(TerminalIO.java:503)
+	at net.wimpi.telnetd.net.Connection.close(Connection.java:218)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:141)
+	Suppressed: java.net.SocketException: Software caused connection abort: socket write error
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+		at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+		at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+		at java.io.FilterOutputStream.close(FilterOutputStream.java:159)
+		... 4 more
+WARN  com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.notifyDisconected(AbstractTerminalSessionState.java:77) - [17.12.2015 13:38:43]: предупреджение о бездействии: получен сигнал об отключении: Превышено время бездействия.
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:57) - [17.12.2015 13:38:43]: ожидание ввода прервано, предположительно состоянием предупреджение о бездействии
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:59) - [17.12.2015 13:38:47]: проблема связи при ожидании ввода данных в состоянии уведомление об отключении
+java.io.IOException: Stream closed.
+	at java.net.AbstractPlainSocketImpl.available(AbstractPlainSocketImpl.java:470)
+	at java.net.SocketInputStream.available(SocketInputStream.java:258)
+	at java.io.FilterInputStream.available(FilterInputStream.java:168)
+	at net.wimpi.telnetd.io.TelnetIO.readAvailable(TelnetIO.java:448)
+	at net.wimpi.telnetd.io.TerminalIO.readAvailable(TerminalIO.java:175)
+	at com.shatura.bc.tmfirst.TerminalSession.queryUser(TerminalSession.java:419)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:55)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+FATAL com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:60) - [17.12.2015 13:38:47]: закрываю сессию
+WARN  com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:73) - [18.12.2015 12:30:02]: в процессе обработки данных=com.shatura.bc.tmfirst.logic.UserQuery$BarCode@5eeb8bca состоянием главное меню случилась ошибка
+com.shatura.bc.tmfirst.logic.DBOpers$DBSQLProblem: ORA-00942: table or view does not exist
+
+	at com.shatura.bc.tmfirst.logic.DBOpers.getIngredOnStockInfo(DBOpers.java:103)
+	at com.shatura.bc.tmfirst.logic.acts.ProcessScannedCodeAction4MainMenu.processValidStockLabelData(ProcessScannedCodeAction4MainMenu.java:54)
+	at com.shatura.bc.tmfirst.logic.acts.ProcessScannedCodeAbstractAction.perform(ProcessScannedCodeAbstractAction.java:83)
+	at com.shatura.bc.tmfirst.logic.states.MainMenuSessionState.doActionByData(MainMenuSessionState.java:53)
+	at com.shatura.bc.tmfirst.logic.states.AbstractTerminalSessionState.processData(AbstractTerminalSessionState.java:52)
+	at com.shatura.bc.tmfirst.logic.LogicProcessor.process(LogicProcessor.java:70)
+	at com.shatura.bc.tmfirst.TerminalSession.run(TerminalSession.java:313)
+	at net.wimpi.telnetd.net.Connection.run(Connection.java:125)
+Caused by: java.sql.SQLException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:743)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:799)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1037)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:839)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1132)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3316)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3422)
+	at ru.sns.db.Utils.lvSQLExecute(Utils.java:25)
+	at com.shatura.bc.tmfirst.data.db.factories.DataFactory.getSP4IngrStock(DataFactory.java:662)
+	at com.shatura.bc.tmfirst.data.db.factories.DataFactory.getIngredOnStockInfo(DataFactory.java:714)
+	at com.shatura.bc.tmfirst.data.db.DataCache.getIngredOnStockInfo(DataCache.java:54)
+	at com.shatura.bc.tmfirst.logic.DBOpers.getIngredOnStockInfo(DBOpers.java:101)
+	... 7 more

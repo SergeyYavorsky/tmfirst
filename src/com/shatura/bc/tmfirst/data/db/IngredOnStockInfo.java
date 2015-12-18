@@ -11,5 +11,6 @@ public interface IngredOnStockInfo {
   SortedSet<RestsInfoRecord> getRests();
   SortedSet<String> getCells();
   SortedMap<StockTask.ID, SortedMap<DictObjStoreTypePair, Number>> getActTasksUsages();
+  String getSP(); //складская программа
 
 }
